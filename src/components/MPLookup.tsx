@@ -22,6 +22,34 @@ const MPLookup: React.FC = () => {
   const [allMPs, setAllMPs] = useState<MP[]>([]);
   const [suggestions, setSuggestions] = useState<MP[]>([]);
 
+  // Google Form tracking
+  const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScLi7l0Mmsh79QK438KjkoKdCHGe-PU8NWxpLtv62ED1XH24w/formResponse';
+
+  const trackEvent = (eventType: string, mpName?: string, constituency?: string) => {
+    const timestamp = new Date().toLocaleString('en-US', {
+      timeZone: 'America/New_York',
+      weekday: 'short',
+      month: 'short',
+      day: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      timeZoneName: 'short'
+    });
+
+    const formData = new FormData();
+    formData.append('entry.268126460', eventType);
+    formData.append('entry.490158959', timestamp);
+    if (mpName) formData.append('entry.1101110710', mpName);
+    if (constituency) formData.append('entry.822429236', constituency);
+
+    // Send to Google Form (no-cors mode, fire and forget)
+    fetch(GOOGLE_FORM_URL, {
+      method: 'POST',
+      body: formData,
+      mode: 'no-cors'
+    }).catch(() => {}); // Ignore errors silently
+  };
+
   const getEmailTemplate = () => {
     // Calculate days since January 8, 2026
     const startDate = new Date('2026-01-08');
@@ -123,17 +151,20 @@ Sincerely,
 
         if (foundMP) {
           setMp(foundMP);
+          trackEvent('Search MP', foundMP.fullName, foundMP.constituency);
         } else {
           // MP not found - use Mark Carney as default
           const markCarney = allMPs.find(mp => mp.fullName === 'Mark Carney');
 
           if (markCarney) {
-            setMp({
+            const defaultMP = {
               ...markCarney,
               isDefault: true,
               actualConstituency: constituencyName,
               postalCode: queryUpper
-            });
+            };
+            setMp(defaultMP);
+            trackEvent('Search MP', markCarney.fullName, constituencyName);
             setError(`Note: The constituency "${constituencyName}" seat is currently vacant or not in our database. Your email will be sent to Mark Carney (Prime Minister) with your constituency information.`);
           } else {
             setError(`Found constituency "${constituencyName}" but couldn't match with MP database. Try searching by name instead.`);
@@ -160,6 +191,7 @@ Sincerely,
           setError('No MP found. Try searching by postal code, MP name, constituency, city, or province.');
         } else if (results.length === 1) {
           setMp(results[0]);
+          trackEvent('Search MP', results[0].fullName, results[0].constituency);
         } else {
           // Multiple results - show suggestions
           setSuggestions(results.slice(0, 10)); // Show top 10 results
@@ -176,6 +208,7 @@ Sincerely,
     setSuggestions([]);
     setError('');
     setSearchInput(selectedMP.fullName);
+    trackEvent('Search MP', selectedMP.fullName, selectedMP.constituency);
   };
 
   const createMailtoLink = (mpData: MP) => {
@@ -329,6 +362,7 @@ Sincerely,
 
               <a
                 href={createMailtoLink(mp)}
+                onClick={() => trackEvent('Send email', mp.fullName, mp.constituency)}
                 className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2 inline-flex"
               >
                 <Mail size={20} />
