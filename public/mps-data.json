@@ -1,0 +1,3161 @@
+[
+  {
+    "firstName": "Judy",
+    "lastName": "A. Sgro",
+    "fullName": "Judy A. Sgro",
+    "constituency": "Humber River—Black Creek",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "judy.sgro@parl.gc.ca"
+  },
+  {
+    "firstName": "Ziad",
+    "lastName": "Aboultaif",
+    "fullName": "Ziad Aboultaif",
+    "constituency": "Edmonton Manning",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "ziad.aboultaif@parl.gc.ca"
+  },
+  {
+    "firstName": "Sima",
+    "lastName": "Acan",
+    "fullName": "Sima Acan",
+    "constituency": "Oakville West",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "sima.acan@parl.gc.ca"
+  },
+  {
+    "firstName": "Scott",
+    "lastName": "Aitchison",
+    "fullName": "Scott Aitchison",
+    "constituency": "Parry Sound—Muskoka",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "scott.aitchison@parl.gc.ca"
+  },
+  {
+    "firstName": "Fares",
+    "lastName": "Al Soud",
+    "fullName": "Fares Al Soud",
+    "constituency": "Mississauga Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "fares.alsoud@parl.gc.ca"
+  },
+  {
+    "firstName": "Dan",
+    "lastName": "Albas",
+    "fullName": "Dan Albas",
+    "constituency": "Okanagan Lake West—South Kelowna",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "dan.albas@parl.gc.ca"
+  },
+  {
+    "firstName": "Shafqat",
+    "lastName": "Ali",
+    "fullName": "Shafqat Ali",
+    "constituency": "Brampton—Chinguacousy Park",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "shafqat.ali@parl.gc.ca"
+  },
+  {
+    "firstName": "Dean",
+    "lastName": "Allison",
+    "fullName": "Dean Allison",
+    "constituency": "Niagara West",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "dean.allison@parl.gc.ca"
+  },
+  {
+    "firstName": "Rebecca",
+    "lastName": "Alty",
+    "fullName": "Rebecca Alty",
+    "constituency": "Northwest Territories",
+    "province": "Northwest Territories",
+    "party": "Liberal",
+    "email": "rebecca.alty@parl.gc.ca"
+  },
+  {
+    "firstName": "Anita",
+    "lastName": "Anand",
+    "fullName": "Anita Anand",
+    "constituency": "Oakville East",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "anita.anand@parl.gc.ca"
+  },
+  {
+    "firstName": "Gary",
+    "lastName": "Anandasangaree",
+    "fullName": "Gary Anandasangaree",
+    "constituency": "Scarborough—Guildwood—Rouge Park",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "gary.anandasangaree@parl.gc.ca"
+  },
+  {
+    "firstName": "Scott",
+    "lastName": "Anderson",
+    "fullName": "Scott Anderson",
+    "constituency": "Vernon—Lake Country—Monashee",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "scott.anderson@parl.gc.ca"
+  },
+  {
+    "firstName": "Carol",
+    "lastName": "Anstey",
+    "fullName": "Carol Anstey",
+    "constituency": "Long Range Mountains",
+    "province": "Newfoundland and Labrador",
+    "party": "Conservative",
+    "email": "carol.anstey@parl.gc.ca"
+  },
+  {
+    "firstName": "Mel",
+    "lastName": "Arnold",
+    "fullName": "Mel Arnold",
+    "constituency": "Kamloops—Shuswap—Central Rockies",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "mel.arnold@parl.gc.ca"
+  },
+  {
+    "firstName": "Chak",
+    "lastName": "Au",
+    "fullName": "Chak Au",
+    "constituency": "Richmond Centre—Marpole",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "chak.au@parl.gc.ca"
+  },
+  {
+    "firstName": "Tatiana",
+    "lastName": "Auguste",
+    "fullName": "Tatiana Auguste",
+    "constituency": "Terrebonne",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "tatiana.auguste@parl.gc.ca"
+  },
+  {
+    "firstName": "Roman",
+    "lastName": "Baber",
+    "fullName": "Roman Baber",
+    "constituency": "York Centre",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "roman.baber@parl.gc.ca"
+  },
+  {
+    "firstName": "Burton",
+    "lastName": "Bailey",
+    "fullName": "Burton Bailey",
+    "constituency": "Red Deer",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "burton.bailey@parl.gc.ca"
+  },
+  {
+    "firstName": "Parm",
+    "lastName": "Bains",
+    "fullName": "Parm Bains",
+    "constituency": "Richmond East—Steveston",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "parm.bains@parl.gc.ca"
+  },
+  {
+    "firstName": "Yvan",
+    "lastName": "Baker",
+    "fullName": "Yvan Baker",
+    "constituency": "Etobicoke Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "yvan.baker@parl.gc.ca"
+  },
+  {
+    "firstName": "Tony",
+    "lastName": "Baldinelli",
+    "fullName": "Tony Baldinelli",
+    "constituency": "Niagara Falls—Niagara-on-the-Lake",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "tony.baldinelli@parl.gc.ca"
+  },
+  {
+    "firstName": "Karim",
+    "lastName": "Bardeesy",
+    "fullName": "Karim Bardeesy",
+    "constituency": "Taiaiako'n—Parkdale—High Park",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "karim.bardeesy@parl.gc.ca"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Barlow",
+    "fullName": "John Barlow",
+    "constituency": "Foothills",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "john.barlow@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Barrett",
+    "fullName": "Michael Barrett",
+    "constituency": "Leeds—Grenville—Thousand Islands—Rideau Lakes",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "michael.barrett@parl.gc.ca"
+  },
+  {
+    "firstName": "Xavier",
+    "lastName": "Barsalou-Duval",
+    "fullName": "Xavier Barsalou-Duval",
+    "constituency": "Pierre-Boucher—Les Patriotes—Verchères",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Xavier.Barsalou-Duval@parl.gc.ca"
+  },
+  {
+    "firstName": "Jaime",
+    "lastName": "Battiste",
+    "fullName": "Jaime Battiste",
+    "constituency": "Cape Breton—Canso—Antigonish",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "jaime.battiste@parl.gc.ca"
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "Beaulieu",
+    "fullName": "Mario Beaulieu",
+    "constituency": "La Pointe-de-l'Île",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "mario.beaulieu@parl.gc.ca"
+  },
+  {
+    "firstName": "Terry",
+    "lastName": "Beech",
+    "fullName": "Terry Beech",
+    "constituency": "Burnaby North—Seymour",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "terry.beech@parl.gc.ca"
+  },
+  {
+    "firstName": "Buckley",
+    "lastName": "Belanger",
+    "fullName": "Buckley Belanger",
+    "constituency": "Desnethé—Missinippi—Churchill River",
+    "province": "Saskatchewan",
+    "party": "Liberal",
+    "email": "buckley.belanger@parl.gc.ca"
+  },
+  {
+    "firstName": "Rachel",
+    "lastName": "Bendayan",
+    "fullName": "Rachel Bendayan",
+    "constituency": "Outremont",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "rachel.bendayan@parl.gc.ca"
+  },
+  {
+    "firstName": "Luc",
+    "lastName": "Berthold",
+    "fullName": "Luc Berthold",
+    "constituency": "Mégantic—L'Érable—Lotbinière",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "luc.berthold@parl.gc.ca"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Bexte",
+    "fullName": "David Bexte",
+    "constituency": "Bow River",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "david.bexte@parl.gc.ca"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Bezan",
+    "fullName": "James Bezan",
+    "constituency": "Selkirk—Interlake—Eastman",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "james.bezan@parl.gc.ca"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Bittle",
+    "fullName": "Chris Bittle",
+    "constituency": "St. Catharines",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "chris.bittle@parl.gc.ca"
+  },
+  {
+    "firstName": "Bill",
+    "lastName": "Blair",
+    "fullName": "Bill Blair",
+    "constituency": "Scarborough Southwest",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "bill.blair@parl.gc.ca"
+  },
+  {
+    "firstName": "Yves-François",
+    "lastName": "Blanchet",
+    "fullName": "Yves-François Blanchet",
+    "constituency": "Beloeil—Chambly",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Yves-Francois.Blanchet@parl.gc.ca"
+  },
+  {
+    "firstName": "Maxime",
+    "lastName": "Blanchette-Joncas",
+    "fullName": "Maxime Blanchette-Joncas",
+    "constituency": "Rimouski—La Matapédia",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Maxime.Blanchette-Joncas@parl.gc.ca"
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "Block",
+    "fullName": "Kelly Block",
+    "constituency": "Carlton Trail—Eagle Creek",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "kelly.block@parl.gc.ca"
+  },
+  {
+    "firstName": "Kody",
+    "lastName": "Blois",
+    "fullName": "Kody Blois",
+    "constituency": "Kings—Hants",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "kody.blois@parl.gc.ca"
+  },
+  {
+    "firstName": "Patrick",
+    "lastName": "Bonin",
+    "fullName": "Patrick Bonin",
+    "constituency": "Repentigny",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "patrick.bonin@parl.gc.ca"
+  },
+  {
+    "firstName": "Steven",
+    "lastName": "Bonk",
+    "fullName": "Steven Bonk",
+    "constituency": "Souris—Moose Mountain",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "steven.bonk@parl.gc.ca"
+  },
+  {
+    "firstName": "Kathy",
+    "lastName": "Borrelli",
+    "fullName": "Kathy Borrelli",
+    "constituency": "Windsor—Tecumseh—Lakeshore",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "kathy.borrelli@parl.gc.ca"
+  },
+  {
+    "firstName": "Alexandre",
+    "lastName": "Boulerice",
+    "fullName": "Alexandre Boulerice",
+    "constituency": "Rosemont—La Petite-Patrie",
+    "province": "Quebec",
+    "party": "NDP",
+    "email": "alexandre.boulerice@parl.gc.ca"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Bragdon",
+    "fullName": "Richard Bragdon",
+    "constituency": "Tobique—Mactaquac",
+    "province": "New Brunswick",
+    "party": "Conservative",
+    "email": "richard.bragdon@parl.gc.ca"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Brassard",
+    "fullName": "John Brassard",
+    "constituency": "Barrie South—Innisfil",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "john.brassard@parl.gc.ca"
+  },
+  {
+    "firstName": "Élisabeth",
+    "lastName": "Brière",
+    "fullName": "Élisabeth Brière",
+    "constituency": "Sherbrooke",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "elisabeth.briere@parl.gc.ca"
+  },
+  {
+    "firstName": "Larry",
+    "lastName": "Brock",
+    "fullName": "Larry Brock",
+    "constituency": "Brantford—Brant South—Six Nations",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "larry.brock@parl.gc.ca"
+  },
+  {
+    "firstName": "Alexis",
+    "lastName": "Brunelle-Duceppe",
+    "fullName": "Alexis Brunelle-Duceppe",
+    "constituency": "Lac-Saint-Jean",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Alexis.Brunelle-Duceppe@parl.gc.ca"
+  },
+  {
+    "firstName": "Jim",
+    "lastName": "Bélanger",
+    "fullName": "Jim Bélanger",
+    "constituency": "Sudbury East—Manitoulin—Nickel Belt",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "jim.belanger@parl.gc.ca"
+  },
+  {
+    "firstName": "Blaine",
+    "lastName": "Calkins",
+    "fullName": "Blaine Calkins",
+    "constituency": "Ponoka—Didsbury",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "blaine.calkins@parl.gc.ca"
+  },
+  {
+    "firstName": "Frank",
+    "lastName": "Caputo",
+    "fullName": "Frank Caputo",
+    "constituency": "Kamloops—Thompson—Nicola",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "frank.caputo@parl.gc.ca"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Carney",
+    "fullName": "Mark Carney",
+    "constituency": "Nepean",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "mark.carney@parl.gc.ca"
+  },
+  {
+    "firstName": "Ben",
+    "lastName": "Carr",
+    "fullName": "Ben Carr",
+    "constituency": "Winnipeg South Centre",
+    "province": "Manitoba",
+    "party": "Liberal",
+    "email": "ben.carr@parl.gc.ca"
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Casey",
+    "fullName": "Sean Casey",
+    "constituency": "Charlottetown",
+    "province": "Prince Edward Island",
+    "party": "Liberal",
+    "email": "sean.casey@parl.gc.ca"
+  },
+  {
+    "firstName": "Bardish",
+    "lastName": "Chagger",
+    "fullName": "Bardish Chagger",
+    "constituency": "Waterloo",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "bardish.chagger@parl.gc.ca"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "Chambers",
+    "fullName": "Adam Chambers",
+    "constituency": "Simcoe North",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "adam.chambers@parl.gc.ca"
+  },
+  {
+    "firstName": "François-Philippe",
+    "lastName": "Champagne",
+    "fullName": "François-Philippe Champagne",
+    "constituency": "Saint-Maurice—Champlain",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Francois-Philippe.Champagne@parl.gc.ca"
+  },
+  {
+    "firstName": "Martin",
+    "lastName": "Champoux",
+    "fullName": "Martin Champoux",
+    "constituency": "Drummond",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "martin.champoux@parl.gc.ca"
+  },
+  {
+    "firstName": "Wade",
+    "lastName": "Chang",
+    "fullName": "Wade Chang",
+    "constituency": "Burnaby Central",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "wade.chang@parl.gc.ca"
+  },
+  {
+    "firstName": "Rebecca",
+    "lastName": "Chartrand",
+    "fullName": "Rebecca Chartrand",
+    "constituency": "Churchill—Keewatinook Aski",
+    "province": "Manitoba",
+    "party": "Liberal",
+    "email": "rebecca.chartrand@parl.gc.ca"
+  },
+  {
+    "firstName": "Sophie",
+    "lastName": "Chatel",
+    "fullName": "Sophie Chatel",
+    "constituency": "Pontiac—Kitigan Zibi",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "sophie.chatel@parl.gc.ca"
+  },
+  {
+    "firstName": "Shaun",
+    "lastName": "Chen",
+    "fullName": "Shaun Chen",
+    "constituency": "Scarborough North",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "shaun.chen@parl.gc.ca"
+  },
+  {
+    "firstName": "Madeleine",
+    "lastName": "Chenette",
+    "fullName": "Madeleine Chenette",
+    "constituency": "Thérèse-De Blainville",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "madeleine.chenette@parl.gc.ca"
+  },
+  {
+    "firstName": "Maggie",
+    "lastName": "Chi",
+    "fullName": "Maggie Chi",
+    "constituency": "Don Valley North",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "maggie.chi@parl.gc.ca"
+  },
+  {
+    "firstName": "Nick",
+    "lastName": "Chicken",
+    "fullName": "Nick Chicken",
+    "constituency": "Perth—Middlesex",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "nick.chicken@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Chong",
+    "fullName": "Michael Chong",
+    "constituency": "Wellington—Halton Hills North",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "michael.chong@parl.gc.ca"
+  },
+  {
+    "firstName": "Leslie",
+    "lastName": "Church",
+    "fullName": "Leslie Church",
+    "constituency": "Toronto—St. Paul's",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "leslie.church@parl.gc.ca"
+  },
+  {
+    "firstName": "Braedon",
+    "lastName": "Clark",
+    "fullName": "Braedon Clark",
+    "constituency": "Sackville—Bedford—Preston",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "braedon.clark@parl.gc.ca"
+  },
+  {
+    "firstName": "Sandra",
+    "lastName": "Cobena",
+    "fullName": "Sandra Cobena",
+    "constituency": "Newmarket—Aurora",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "sandra.cobena@parl.gc.ca"
+  },
+  {
+    "firstName": "Connie",
+    "lastName": "Cody",
+    "fullName": "Connie Cody",
+    "constituency": "Cambridge",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "connie.cody@parl.gc.ca"
+  },
+  {
+    "firstName": "Paul",
+    "lastName": "Connors",
+    "fullName": "Paul Connors",
+    "constituency": "Avalon",
+    "province": "Newfoundland and Labrador",
+    "party": "Liberal",
+    "email": "paul.connors@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Cooper",
+    "fullName": "Michael Cooper",
+    "constituency": "St. Albert—Sturgeon River",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "michael.cooper@parl.gc.ca"
+  },
+  {
+    "firstName": "Serge",
+    "lastName": "Cormier",
+    "fullName": "Serge Cormier",
+    "constituency": "Acadie—Bathurst",
+    "province": "New Brunswick",
+    "party": "Liberal",
+    "email": "serge.cormier@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Coteau",
+    "fullName": "Michael Coteau",
+    "constituency": "Scarborough—Woburn",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "michael.coteau@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "D. Chong",
+    "fullName": "Michael D. Chong",
+    "constituency": "Wellington—Halton Hills North",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "michael.chong@parl.gc.ca"
+  },
+  {
+    "firstName": "Julie",
+    "lastName": "Dabrusin",
+    "fullName": "Julie Dabrusin",
+    "constituency": "Toronto—Danforth",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "julie.dabrusin@parl.gc.ca"
+  },
+  {
+    "firstName": "Marc",
+    "lastName": "Dalton",
+    "fullName": "Marc Dalton",
+    "constituency": "Pitt Meadows—Maple Ridge",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "marc.dalton@parl.gc.ca"
+  },
+  {
+    "firstName": "Raquel",
+    "lastName": "Dancho",
+    "fullName": "Raquel Dancho",
+    "constituency": "Kildonan—St. Paul",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "raquel.dancho@parl.gc.ca"
+  },
+  {
+    "firstName": "Marianne",
+    "lastName": "Dandurand",
+    "fullName": "Marianne Dandurand",
+    "constituency": "Compton—Stanstead",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "marianne.dandurand@parl.gc.ca"
+  },
+  {
+    "firstName": "John-Paul",
+    "lastName": "Danko",
+    "fullName": "John-Paul Danko",
+    "constituency": "Hamilton West—Ancaster—Dundas",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "John-Paul.Danko@parl.gc.ca"
+  },
+  {
+    "firstName": "Scot",
+    "lastName": "Davidson",
+    "fullName": "Scot Davidson",
+    "constituency": "New Tecumseth—Gwillimbury",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "scot.davidson@parl.gc.ca"
+  },
+  {
+    "firstName": "Don",
+    "lastName": "Davies",
+    "fullName": "Don Davies",
+    "constituency": "Vancouver Kingsway",
+    "province": "British Columbia",
+    "party": "NDP",
+    "email": "don.davies@parl.gc.ca"
+  },
+  {
+    "firstName": "Fred",
+    "lastName": "Davies",
+    "fullName": "Fred Davies",
+    "constituency": "Niagara South",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "fred.davies@parl.gc.ca"
+  },
+  {
+    "firstName": "Mike",
+    "lastName": "Dawson",
+    "fullName": "Mike Dawson",
+    "constituency": "Miramichi—Grand Lake",
+    "province": "New Brunswick",
+    "party": "Conservative",
+    "email": "mike.dawson@parl.gc.ca"
+  },
+  {
+    "firstName": "Claude",
+    "lastName": "DeBellefeuille",
+    "fullName": "Claude DeBellefeuille",
+    "constituency": "Beauharnois—Salaberry—Soulanges—Huntingdon",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "claude.debellefeuille@parl.gc.ca"
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "DeRidder",
+    "fullName": "Kelly DeRidder",
+    "constituency": "Kitchener Centre",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "kelly.deridder@parl.gc.ca"
+  },
+  {
+    "firstName": "Gérard",
+    "lastName": "Deltell",
+    "fullName": "Gérard Deltell",
+    "constituency": "Louis-Saint-Laurent—Akiawenhrahk",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "gerard.deltell@parl.gc.ca"
+  },
+  {
+    "firstName": "Alexis",
+    "lastName": "Deschênes",
+    "fullName": "Alexis Deschênes",
+    "constituency": "Gaspésie—Les Îles-de-la-Madeleine—Listuguj",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "alexis.deschenes@parl.gc.ca"
+  },
+  {
+    "firstName": "Guillaume",
+    "lastName": "Deschênes-Thériault",
+    "fullName": "Guillaume Deschênes-Thériault",
+    "constituency": "Madawaska—Restigouche",
+    "province": "New Brunswick",
+    "party": "Liberal",
+    "email": "Guillaume.Deschenes-Theriault@parl.gc.ca"
+  },
+  {
+    "firstName": "Caroline",
+    "lastName": "Desrochers",
+    "fullName": "Caroline Desrochers",
+    "constituency": "Trois-Rivières",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "caroline.desrochers@parl.gc.ca"
+  },
+  {
+    "firstName": "Sukh",
+    "lastName": "Dhaliwal",
+    "fullName": "Sukh Dhaliwal",
+    "constituency": "Surrey Newton",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "sukh.dhaliwal@parl.gc.ca"
+  },
+  {
+    "firstName": "Anju",
+    "lastName": "Dhillon",
+    "fullName": "Anju Dhillon",
+    "constituency": "Dorval—Lachine—LaSalle",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "anju.dhillon@parl.gc.ca"
+  },
+  {
+    "firstName": "Kerry",
+    "lastName": "Diotte",
+    "fullName": "Kerry Diotte",
+    "constituency": "Edmonton Griesbach",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "kerry.diotte@parl.gc.ca"
+  },
+  {
+    "firstName": "Todd",
+    "lastName": "Doherty",
+    "fullName": "Todd Doherty",
+    "constituency": "Cariboo—Prince George",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "todd.doherty@parl.gc.ca"
+  },
+  {
+    "firstName": "Terry",
+    "lastName": "Dowdall",
+    "fullName": "Terry Dowdall",
+    "constituency": "Simcoe—Grey",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "terry.dowdall@parl.gc.ca"
+  },
+  {
+    "firstName": "Jean-Yves",
+    "lastName": "Duclos",
+    "fullName": "Jean-Yves Duclos",
+    "constituency": "Québec Centre",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Jean-Yves.Duclos@parl.gc.ca"
+  },
+  {
+    "firstName": "Terry",
+    "lastName": "Duguid",
+    "fullName": "Terry Duguid",
+    "constituency": "Winnipeg South",
+    "province": "Manitoba",
+    "party": "Liberal",
+    "email": "terry.duguid@parl.gc.ca"
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Duncan",
+    "fullName": "Eric Duncan",
+    "constituency": "Stormont—Dundas—Glengarry",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "eric.duncan@parl.gc.ca"
+  },
+  {
+    "firstName": "Julie",
+    "lastName": "Dzerowicz",
+    "fullName": "Julie Dzerowicz",
+    "constituency": "Davenport",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "julie.dzerowicz@parl.gc.ca"
+  },
+  {
+    "firstName": "Philip",
+    "lastName": "Earle",
+    "fullName": "Philip Earle",
+    "constituency": "Labrador",
+    "province": "Newfoundland and Labrador",
+    "party": "Liberal",
+    "email": "philip.earle@parl.gc.ca"
+  },
+  {
+    "firstName": "Ali",
+    "lastName": "Ehsassi",
+    "fullName": "Ali Ehsassi",
+    "constituency": "Willowdale",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "ali.ehsassi@parl.gc.ca"
+  },
+  {
+    "firstName": "Fayçal",
+    "lastName": "El-Khoury",
+    "fullName": "Fayçal El-Khoury",
+    "constituency": "Laval—Les Îles",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Faycal.El-Khoury@parl.gc.ca"
+  },
+  {
+    "firstName": "Dave",
+    "lastName": "Epp",
+    "fullName": "Dave Epp",
+    "constituency": "Chatham-Kent—Leamington",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "dave.epp@parl.gc.ca"
+  },
+  {
+    "firstName": "Nathaniel",
+    "lastName": "Erskine-Smith",
+    "fullName": "Nathaniel Erskine-Smith",
+    "constituency": "Beaches—East York",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "Nathaniel.Erskine-Smith@parl.gc.ca"
+  },
+  {
+    "firstName": "Doug",
+    "lastName": "Eyolfson",
+    "fullName": "Doug Eyolfson",
+    "constituency": "Winnipeg West",
+    "province": "Manitoba",
+    "party": "Liberal",
+    "email": "doug.eyolfson@parl.gc.ca"
+  },
+  {
+    "firstName": "Rosemarie",
+    "lastName": "Falk",
+    "fullName": "Rosemarie Falk",
+    "constituency": "Battlefords—Lloydminster—Meadow Lake",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "rosemarie.falk@parl.gc.ca"
+  },
+  {
+    "firstName": "Ted",
+    "lastName": "Falk",
+    "fullName": "Ted Falk",
+    "constituency": "Provencher",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "ted.falk@parl.gc.ca"
+  },
+  {
+    "firstName": "Jessica",
+    "lastName": "Fancy",
+    "fullName": "Jessica Fancy",
+    "constituency": "South Shore—St. Margarets",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "jessica.fancy@parl.gc.ca"
+  },
+  {
+    "firstName": "Bruce",
+    "lastName": "Fanjoy",
+    "fullName": "Bruce Fanjoy",
+    "constituency": "Carleton",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "bruce.fanjoy@parl.gc.ca"
+  },
+  {
+    "firstName": "Greg",
+    "lastName": "Fergus",
+    "fullName": "Greg Fergus",
+    "constituency": "Hull—Aylmer",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "greg.fergus@parl.gc.ca"
+  },
+  {
+    "firstName": "Darren",
+    "lastName": "Fisher",
+    "fullName": "Darren Fisher",
+    "constituency": "Dartmouth—Cole Harbour",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "darren.fisher@parl.gc.ca"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Fonseca",
+    "fullName": "Peter Fonseca",
+    "constituency": "Mississauga East—Cooksville",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "peter.fonseca@parl.gc.ca"
+  },
+  {
+    "firstName": "Mona",
+    "lastName": "Fortier",
+    "fullName": "Mona Fortier",
+    "constituency": "Ottawa—Vanier—Gloucester",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "mona.fortier@parl.gc.ca"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Fragiskatos",
+    "fullName": "Peter Fragiskatos",
+    "constituency": "London Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "peter.fragiskatos@parl.gc.ca"
+  },
+  {
+    "firstName": "Sean",
+    "lastName": "Fraser",
+    "fullName": "Sean Fraser",
+    "constituency": "Central Nova",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "sean.fraser@parl.gc.ca"
+  },
+  {
+    "firstName": "Hedy",
+    "lastName": "Fry",
+    "fullName": "Hedy Fry",
+    "constituency": "Vancouver Centre",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "hedy.fry@parl.gc.ca"
+  },
+  {
+    "firstName": "Stephen",
+    "lastName": "Fuhr",
+    "fullName": "Stephen Fuhr",
+    "constituency": "Kelowna",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "stephen.fuhr@parl.gc.ca"
+  },
+  {
+    "firstName": "Iqwinder",
+    "lastName": "Gaheer",
+    "fullName": "Iqwinder Gaheer",
+    "constituency": "Mississauga—Malton",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "iqwinder.gaheer@parl.gc.ca"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Gainey",
+    "fullName": "Anna Gainey",
+    "constituency": "Notre-Dame-de-Grâce—Westmount",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "anna.gainey@parl.gc.ca"
+  },
+  {
+    "firstName": "Cheryl",
+    "lastName": "Gallant",
+    "fullName": "Cheryl Gallant",
+    "constituency": "Algonquin—Renfrew—Pembroke",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "cheryl.gallant@parl.gc.ca"
+  },
+  {
+    "firstName": "Jean-Denis",
+    "lastName": "Garon",
+    "fullName": "Jean-Denis Garon",
+    "constituency": "Mirabel",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Jean-Denis.Garon@parl.gc.ca"
+  },
+  {
+    "firstName": "Vince",
+    "lastName": "Gasparro",
+    "fullName": "Vince Gasparro",
+    "constituency": "Eglinton—Lawrence",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "vince.gasparro@parl.gc.ca"
+  },
+  {
+    "firstName": "Marie-Hélène",
+    "lastName": "Gaudreau",
+    "fullName": "Marie-Hélène Gaudreau",
+    "constituency": "Laurentides—Labelle",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Marie-Helene.Gaudreau@parl.gc.ca"
+  },
+  {
+    "firstName": "Leah",
+    "lastName": "Gazan",
+    "fullName": "Leah Gazan",
+    "constituency": "Winnipeg Centre",
+    "province": "Manitoba",
+    "party": "NDP",
+    "email": "leah.gazan@parl.gc.ca"
+  },
+  {
+    "firstName": "Garnett",
+    "lastName": "Genuis",
+    "fullName": "Garnett Genuis",
+    "constituency": "Sherwood Park—Fort Saskatchewan",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "garnett.genuis@parl.gc.ca"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Gerretsen",
+    "fullName": "Mark Gerretsen",
+    "constituency": "Kingston and the Islands",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "mark.gerretsen@parl.gc.ca"
+  },
+  {
+    "firstName": "Amarjeet",
+    "lastName": "Gill",
+    "fullName": "Amarjeet Gill",
+    "constituency": "Brampton West",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "amarjeet.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Dalwinder",
+    "lastName": "Gill",
+    "fullName": "Dalwinder Gill",
+    "constituency": "Calgary McKnight",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "dalwinder.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Harb",
+    "lastName": "Gill",
+    "fullName": "Harb Gill",
+    "constituency": "Windsor West",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "harb.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Marilène",
+    "lastName": "Gill",
+    "fullName": "Marilène Gill",
+    "constituency": "Côte-Nord—Kawawachikamach—Nitassinan",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "marilene.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Sukhman",
+    "lastName": "Gill",
+    "fullName": "Sukhman Gill",
+    "constituency": "Abbotsford—South Langley",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "sukhman.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Amanpreet",
+    "lastName": "Gill",
+    "fullName": "Amanpreet Gill",
+    "constituency": "Calgary Skyview",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "amanpreet.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Marilyn",
+    "lastName": "Gladu",
+    "fullName": "Marilyn Gladu",
+    "constituency": "Sarnia—Lambton—Bkejwanong",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "marilyn.gladu@parl.gc.ca"
+  },
+  {
+    "firstName": "Joël",
+    "lastName": "Godin",
+    "fullName": "Joël Godin",
+    "constituency": "Portneuf—Jacques-Cartier",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "joël.godin@parl.gc.ca"
+  },
+  {
+    "firstName": "Laila",
+    "lastName": "Goodridge",
+    "fullName": "Laila Goodridge",
+    "constituency": "Fort McMurray—Cold Lake",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "laila.goodridge@parl.gc.ca"
+  },
+  {
+    "firstName": "Karina",
+    "lastName": "Gould",
+    "fullName": "Karina Gould",
+    "constituency": "Burlington",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "karina.gould@parl.gc.ca"
+  },
+  {
+    "firstName": "Jacques",
+    "lastName": "Gourde",
+    "fullName": "Jacques Gourde",
+    "constituency": "Lévis—Lotbinière",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "jacques.gourde@parl.gc.ca"
+  },
+  {
+    "firstName": "Wade",
+    "lastName": "Grant",
+    "fullName": "Wade Grant",
+    "constituency": "Vancouver Quadra",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "wade.grant@parl.gc.ca"
+  },
+  {
+    "firstName": "Will",
+    "lastName": "Greaves",
+    "fullName": "Will Greaves",
+    "constituency": "Victoria",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "will.greaves@parl.gc.ca"
+  },
+  {
+    "firstName": "Jason",
+    "lastName": "Groleau",
+    "fullName": "Jason Groleau",
+    "constituency": "Beauce",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "jason.groleau@parl.gc.ca"
+  },
+  {
+    "firstName": "Claude",
+    "lastName": "Guay",
+    "fullName": "Claude Guay",
+    "constituency": "LaSalle—Émard—Verdun",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "claude.guay@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Guglielmin",
+    "fullName": "Michael Guglielmin",
+    "constituency": "Vaughan—Woodbridge",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "michael.guglielmin@parl.gc.ca"
+  },
+  {
+    "firstName": "Steven",
+    "lastName": "Guilbeault",
+    "fullName": "Steven Guilbeault",
+    "constituency": "Laurier—Sainte-Marie",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "steven.guilbeault@parl.gc.ca"
+  },
+  {
+    "firstName": "Mandy",
+    "lastName": "Gull-Masty",
+    "fullName": "Mandy Gull-Masty",
+    "constituency": "Abitibi—Baie-James—Nunavik—Eeyou",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Mandy.Gull-Masty@parl.gc.ca"
+  },
+  {
+    "firstName": "Aaron",
+    "lastName": "Gunn",
+    "fullName": "Aaron Gunn",
+    "constituency": "North Island—Powell River",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "aaron.gunn@parl.gc.ca"
+  },
+  {
+    "firstName": "Bernard",
+    "lastName": "Généreux",
+    "fullName": "Bernard Généreux",
+    "constituency": "Côte-du-Sud—Rivière-du-Loup—Kataskomiq—Témiscouata",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "bernard.genereux@parl.gc.ca"
+  },
+  {
+    "firstName": "Patty",
+    "lastName": "Hajdu",
+    "fullName": "Patty Hajdu",
+    "constituency": "Thunder Bay—Superior North",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "patty.hajdu@parl.gc.ca"
+  },
+  {
+    "firstName": "Jasraj",
+    "lastName": "Hallan",
+    "fullName": "Jasraj Hallan",
+    "constituency": "Calgary East",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "jasraj.hallan@parl.gc.ca"
+  },
+  {
+    "firstName": "Brendan",
+    "lastName": "Hanley",
+    "fullName": "Brendan Hanley",
+    "constituency": "Yukon",
+    "province": "Yukon",
+    "party": "Liberal",
+    "email": "brendan.hanley@parl.gc.ca"
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Hardy",
+    "fullName": "Gabriel Hardy",
+    "constituency": "Montmorency—Charlevoix",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "gabriel.hardy@parl.gc.ca"
+  },
+  {
+    "firstName": "Emma",
+    "lastName": "Harrison",
+    "fullName": "Emma Harrison",
+    "constituency": "Peterborough",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "emma.harrison@parl.gc.ca"
+  },
+  {
+    "firstName": "Lisa",
+    "lastName": "Hepfner",
+    "fullName": "Lisa Hepfner",
+    "constituency": "Hamilton Mountain",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "lisa.hepfner@parl.gc.ca"
+  },
+  {
+    "firstName": "Alana",
+    "lastName": "Hirtle",
+    "fullName": "Alana Hirtle",
+    "constituency": "Cumberland—Colchester",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "alana.hirtle@parl.gc.ca"
+  },
+  {
+    "firstName": "Vincent",
+    "lastName": "Ho",
+    "fullName": "Vincent Ho",
+    "constituency": "Richmond Hill South",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "vincent.ho@parl.gc.ca"
+  },
+  {
+    "firstName": "Randy",
+    "lastName": "Hoback",
+    "fullName": "Randy Hoback",
+    "constituency": "Prince Albert",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "randy.hoback@parl.gc.ca"
+  },
+  {
+    "firstName": "Tim",
+    "lastName": "Hodgson",
+    "fullName": "Tim Hodgson",
+    "constituency": "Markham—Thornhill",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "tim.hodgson@parl.gc.ca"
+  },
+  {
+    "firstName": "Corey",
+    "lastName": "Hogan",
+    "fullName": "Corey Hogan",
+    "constituency": "Calgary Confederation",
+    "province": "Alberta",
+    "party": "Liberal",
+    "email": "corey.hogan@parl.gc.ca"
+  },
+  {
+    "firstName": "Kurt",
+    "lastName": "Holman",
+    "fullName": "Kurt Holman",
+    "constituency": "London—Fanshawe",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "kurt.holman@parl.gc.ca"
+  },
+  {
+    "firstName": "Anthony",
+    "lastName": "Housefather",
+    "fullName": "Anthony Housefather",
+    "constituency": "Mount Royal",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "anthony.housefather@parl.gc.ca"
+  },
+  {
+    "firstName": "Ahmed",
+    "lastName": "Hussen",
+    "fullName": "Ahmed Hussen",
+    "constituency": "York South—Weston—Etobicoke",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "ahmed.hussen@parl.gc.ca"
+  },
+  {
+    "firstName": "Angelo",
+    "lastName": "Iacono",
+    "fullName": "Angelo Iacono",
+    "constituency": "Alfred-Pellan",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "angelo.iacono@parl.gc.ca"
+  },
+  {
+    "firstName": "Lori",
+    "lastName": "Idlout",
+    "fullName": "Lori Idlout",
+    "constituency": "Nunavut",
+    "province": "Nunavut",
+    "party": "NDP",
+    "email": "lori.idlout@parl.gc.ca"
+  },
+  {
+    "firstName": "David",
+    "lastName": "J. McGuinty",
+    "fullName": "David J. McGuinty",
+    "constituency": "Ottawa South",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "david.mcguinty@parl.gc.ca"
+  },
+  {
+    "firstName": "Grant",
+    "lastName": "Jackson",
+    "fullName": "Grant Jackson",
+    "constituency": "Brandon—Souris",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "grant.jackson@parl.gc.ca"
+  },
+  {
+    "firstName": "Helena",
+    "lastName": "Jaczek",
+    "fullName": "Helena Jaczek",
+    "constituency": "Markham—Stouffville",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "helena.jaczek@parl.gc.ca"
+  },
+  {
+    "firstName": "Tamara",
+    "lastName": "Jansen",
+    "fullName": "Tamara Jansen",
+    "constituency": "Cloverdale—Langley City",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "tamara.jansen@parl.gc.ca"
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "Jeneroux",
+    "fullName": "Matt Jeneroux",
+    "constituency": "Edmonton Riverbend",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "matt.jeneroux@parl.gc.ca"
+  },
+  {
+    "firstName": "Jamil",
+    "lastName": "Jivani",
+    "fullName": "Jamil Jivani",
+    "constituency": "Bowmanville—Oshawa North",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "jamil.jivani@parl.gc.ca"
+  },
+  {
+    "firstName": "Gord",
+    "lastName": "Johns",
+    "fullName": "Gord Johns",
+    "constituency": "Courtenay—Alberni",
+    "province": "British Columbia",
+    "party": "NDP",
+    "email": "gord.johns@parl.gc.ca"
+  },
+  {
+    "firstName": "Mélanie",
+    "lastName": "Joly",
+    "fullName": "Mélanie Joly",
+    "constituency": "Ahuntsic-Cartierville",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "melanie.joly@parl.gc.ca"
+  },
+  {
+    "firstName": "Natilien",
+    "lastName": "Joseph",
+    "fullName": "Natilien Joseph",
+    "constituency": "Longueuil—Saint-Hubert",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "natilien.joseph@parl.gc.ca"
+  },
+  {
+    "firstName": "Arielle",
+    "lastName": "Kayabaga",
+    "fullName": "Arielle Kayabaga",
+    "constituency": "London West",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "arielle.kayabaga@parl.gc.ca"
+  },
+  {
+    "firstName": "Mike",
+    "lastName": "Kelloway",
+    "fullName": "Mike Kelloway",
+    "constituency": "Sydney—Glace Bay",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "mike.kelloway@parl.gc.ca"
+  },
+  {
+    "firstName": "Pat",
+    "lastName": "Kelly",
+    "fullName": "Pat Kelly",
+    "constituency": "Calgary Crowfoot",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "pat.kelly@parl.gc.ca"
+  },
+  {
+    "firstName": "Iqra",
+    "lastName": "Khalid",
+    "fullName": "Iqra Khalid",
+    "constituency": "Mississauga—Erin Mills",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "iqra.khalid@parl.gc.ca"
+  },
+  {
+    "firstName": "Arpan",
+    "lastName": "Khanna",
+    "fullName": "Arpan Khanna",
+    "constituency": "Oxford",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "arpan.khanna@parl.gc.ca"
+  },
+  {
+    "firstName": "Jeff",
+    "lastName": "Kibble",
+    "fullName": "Jeff Kibble",
+    "constituency": "Cowichan—Malahat—Langford",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "jeff.kibble@parl.gc.ca"
+  },
+  {
+    "firstName": "Rhonda",
+    "lastName": "Kirkland",
+    "fullName": "Rhonda Kirkland",
+    "constituency": "Oshawa",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "rhonda.kirkland@parl.gc.ca"
+  },
+  {
+    "firstName": "Ernie",
+    "lastName": "Klassen",
+    "fullName": "Ernie Klassen",
+    "constituency": "South Surrey—White Rock",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "ernie.klassen@parl.gc.ca"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Kmiec",
+    "fullName": "Tom Kmiec",
+    "constituency": "Calgary Shepard",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "tom.kmiec@parl.gc.ca"
+  },
+  {
+    "firstName": "Helena",
+    "lastName": "Konanz",
+    "fullName": "Helena Konanz",
+    "constituency": "Similkameen—South Okanagan—West Kootenay",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "helena.konanz@parl.gc.ca"
+  },
+  {
+    "firstName": "Annie",
+    "lastName": "Koutrakis",
+    "fullName": "Annie Koutrakis",
+    "constituency": "Vimy",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "annie.koutrakis@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Kram",
+    "fullName": "Michael Kram",
+    "constituency": "Regina—Wascana",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "michael.kram@parl.gc.ca"
+  },
+  {
+    "firstName": "Shelby",
+    "lastName": "Kramp-Neuman",
+    "fullName": "Shelby Kramp-Neuman",
+    "constituency": "Hastings—Lennox and Addington—Tyendinaga",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "Shelby.Kramp-Neuman@parl.gc.ca"
+  },
+  {
+    "firstName": "Tamara",
+    "lastName": "Kronis",
+    "fullName": "Tamara Kronis",
+    "constituency": "Nanaimo—Ladysmith",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "tamara.kronis@parl.gc.ca"
+  },
+  {
+    "firstName": "Ned",
+    "lastName": "Kuruc",
+    "fullName": "Ned Kuruc",
+    "constituency": "Hamilton East—Stoney Creek",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "ned.kuruc@parl.gc.ca"
+  },
+  {
+    "firstName": "Stephanie",
+    "lastName": "Kusie",
+    "fullName": "Stephanie Kusie",
+    "constituency": "Calgary Midnapore",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "stephanie.kusie@parl.gc.ca"
+  },
+  {
+    "firstName": "Jenny",
+    "lastName": "Kwan",
+    "fullName": "Jenny Kwan",
+    "constituency": "Vancouver East",
+    "province": "British Columbia",
+    "party": "NDP",
+    "email": "jenny.kwan@parl.gc.ca"
+  },
+  {
+    "firstName": "Mike",
+    "lastName": "Lake",
+    "fullName": "Mike Lake",
+    "constituency": "Leduc—Wetaskiwin",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "mike.lake@parl.gc.ca"
+  },
+  {
+    "firstName": "Marie-France",
+    "lastName": "Lalonde",
+    "fullName": "Marie-France Lalonde",
+    "constituency": "Orléans",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "Marie-France.Lalonde@parl.gc.ca"
+  },
+  {
+    "firstName": "Emmanuella",
+    "lastName": "Lambropoulos",
+    "fullName": "Emmanuella Lambropoulos",
+    "constituency": "Saint-Laurent",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "emmanuella.lambropoulos@parl.gc.ca"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Lamoureux",
+    "fullName": "Kevin Lamoureux",
+    "constituency": "Winnipeg North",
+    "province": "Manitoba",
+    "party": "Liberal",
+    "email": "kevin.lamoureux@parl.gc.ca"
+  },
+  {
+    "firstName": "Melissa",
+    "lastName": "Lantsman",
+    "fullName": "Melissa Lantsman",
+    "constituency": "Thornhill",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "melissa.lantsman@parl.gc.ca"
+  },
+  {
+    "firstName": "Linda",
+    "lastName": "Lapointe",
+    "fullName": "Linda Lapointe",
+    "constituency": "Rivière-des-Mille-Îles",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "linda.lapointe@parl.gc.ca"
+  },
+  {
+    "firstName": "Viviane",
+    "lastName": "Lapointe",
+    "fullName": "Viviane Lapointe",
+    "constituency": "Sudbury",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "viviane.lapointe@parl.gc.ca"
+  },
+  {
+    "firstName": "Andréanne",
+    "lastName": "Larouche",
+    "fullName": "Andréanne Larouche",
+    "constituency": "Shefford",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "andreanne.larouche@parl.gc.ca"
+  },
+  {
+    "firstName": "Patricia",
+    "lastName": "Lattanzio",
+    "fullName": "Patricia Lattanzio",
+    "constituency": "Saint-Léonard—Saint-Michel",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "patricia.lattanzio@parl.gc.ca"
+  },
+  {
+    "firstName": "Stéphane",
+    "lastName": "Lauzon",
+    "fullName": "Stéphane Lauzon",
+    "constituency": "Argenteuil—La Petite-Nation",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "stephane.lauzon@parl.gc.ca"
+  },
+  {
+    "firstName": "Ginette",
+    "lastName": "Lavack",
+    "fullName": "Ginette Lavack",
+    "constituency": "St. Boniface—St. Vital",
+    "province": "Manitoba",
+    "party": "Liberal",
+    "email": "ginette.lavack@parl.gc.ca"
+  },
+  {
+    "firstName": "Steeve",
+    "lastName": "Lavoie",
+    "fullName": "Steeve Lavoie",
+    "constituency": "Beauport—Limoilou",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "steeve.lavoie@parl.gc.ca"
+  },
+  {
+    "firstName": "Philip",
+    "lastName": "Lawrence",
+    "fullName": "Philip Lawrence",
+    "constituency": "Northumberland—Clarke",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "philip.lawrence@parl.gc.ca"
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Lawton",
+    "fullName": "Andrew Lawton",
+    "constituency": "Elgin—St. Thomas—London South",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "andrew.lawton@parl.gc.ca"
+  },
+  {
+    "firstName": "Dominic",
+    "lastName": "LeBlanc",
+    "fullName": "Dominic LeBlanc",
+    "constituency": "Beauséjour",
+    "province": "New Brunswick",
+    "party": "Liberal",
+    "email": "dominic.leblanc@parl.gc.ca"
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Lefebvre",
+    "fullName": "Eric Lefebvre",
+    "constituency": "Richmond—Arthabaska",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "eric.lefebvre@parl.gc.ca"
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "Leitão",
+    "fullName": "Carlos Leitão",
+    "constituency": "Marc-Aurèle-Fortin",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "carlos.leitão@parl.gc.ca"
+  },
+  {
+    "firstName": "Sébastien",
+    "lastName": "Lemire",
+    "fullName": "Sébastien Lemire",
+    "constituency": "Abitibi—Témiscamingue",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "sebastien.lemire@parl.gc.ca"
+  },
+  {
+    "firstName": "Branden",
+    "lastName": "Leslie",
+    "fullName": "Branden Leslie",
+    "constituency": "Portage—Lisgar",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "branden.leslie@parl.gc.ca"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Lewis",
+    "fullName": "Chris Lewis",
+    "constituency": "Essex",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "chris.lewis@parl.gc.ca"
+  },
+  {
+    "firstName": "Leslyn",
+    "lastName": "Lewis",
+    "fullName": "Leslyn Lewis",
+    "constituency": "Haldimand—Norfolk",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "leslyn.lewis@parl.gc.ca"
+  },
+  {
+    "firstName": "Joël",
+    "lastName": "Lightbound",
+    "fullName": "Joël Lightbound",
+    "constituency": "Louis-Hébert",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "joël.lightbound@parl.gc.ca"
+  },
+  {
+    "firstName": "Dane",
+    "lastName": "Lloyd",
+    "fullName": "Dane Lloyd",
+    "constituency": "Parkland",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "dane.lloyd@parl.gc.ca"
+  },
+  {
+    "firstName": "Ben",
+    "lastName": "Lobb",
+    "fullName": "Ben Lobb",
+    "constituency": "Huron—Bruce",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "ben.lobb@parl.gc.ca"
+  },
+  {
+    "firstName": "Wayne",
+    "lastName": "Long",
+    "fullName": "Wayne Long",
+    "constituency": "Saint John—Kennebecasis",
+    "province": "New Brunswick",
+    "party": "Liberal",
+    "email": "wayne.long@parl.gc.ca"
+  },
+  {
+    "firstName": "Tim",
+    "lastName": "Louis",
+    "fullName": "Tim Louis",
+    "constituency": "Kitchener—Conestoga",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "tim.louis@parl.gc.ca"
+  },
+  {
+    "firstName": "Michael",
+    "lastName": "Ma",
+    "fullName": "Michael Ma",
+    "constituency": "Markham—Unionville",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "michael.ma@parl.gc.ca"
+  },
+  {
+    "firstName": "Heath",
+    "lastName": "MacDonald",
+    "fullName": "Heath MacDonald",
+    "constituency": "Malpeque",
+    "province": "Prince Edward Island",
+    "party": "Liberal",
+    "email": "heath.macdonald@parl.gc.ca"
+  },
+  {
+    "firstName": "Kent",
+    "lastName": "MacDonald",
+    "fullName": "Kent MacDonald",
+    "constituency": "Cardigan",
+    "province": "Prince Edward Island",
+    "party": "Liberal",
+    "email": "kent.macdonald@parl.gc.ca"
+  },
+  {
+    "firstName": "Steven",
+    "lastName": "MacKinnon",
+    "fullName": "Steven MacKinnon",
+    "constituency": "Gatineau",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "steven.mackinnon@parl.gc.ca"
+  },
+  {
+    "firstName": "Shuvaloy",
+    "lastName": "Majumdar",
+    "fullName": "Shuvaloy Majumdar",
+    "constituency": "Calgary Heritage",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "shuvaloy.majumdar@parl.gc.ca"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Malette",
+    "fullName": "Chris Malette",
+    "constituency": "Bay of Quinte",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "chris.malette@parl.gc.ca"
+  },
+  {
+    "firstName": "Gaétan",
+    "lastName": "Malette",
+    "fullName": "Gaétan Malette",
+    "constituency": "Kapuskasing—Timmins—Mushkegowuk",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "gaetan.malette@parl.gc.ca"
+  },
+  {
+    "firstName": "James",
+    "lastName": "Maloney",
+    "fullName": "James Maloney",
+    "constituency": "Etobicoke—Lakeshore",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "james.maloney@parl.gc.ca"
+  },
+  {
+    "firstName": "Jacob",
+    "lastName": "Mantle",
+    "fullName": "Jacob Mantle",
+    "constituency": "York—Durham",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "jacob.mantle@parl.gc.ca"
+  },
+  {
+    "firstName": "Richard",
+    "lastName": "Martel",
+    "fullName": "Richard Martel",
+    "constituency": "Chicoutimi—Le Fjord",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "richard.martel@parl.gc.ca"
+  },
+  {
+    "firstName": "Elizabeth",
+    "lastName": "May",
+    "fullName": "Elizabeth May",
+    "constituency": "Saanich—Gulf Islands",
+    "province": "British Columbia",
+    "party": "Green Party",
+    "email": "elizabeth.may@parl.gc.ca"
+  },
+  {
+    "firstName": "Dan",
+    "lastName": "Mazier",
+    "fullName": "Dan Mazier",
+    "constituency": "Riding Mountain",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "dan.mazier@parl.gc.ca"
+  },
+  {
+    "firstName": "Kelly",
+    "lastName": "McCauley",
+    "fullName": "Kelly McCauley",
+    "constituency": "Edmonton West",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "kelly.mccauley@parl.gc.ca"
+  },
+  {
+    "firstName": "David",
+    "lastName": "McGuinty",
+    "fullName": "David McGuinty",
+    "constituency": "Ottawa South",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "david.mcguinty@parl.gc.ca"
+  },
+  {
+    "firstName": "Jennifer",
+    "lastName": "McKelvie",
+    "fullName": "Jennifer McKelvie",
+    "constituency": "Ajax",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "jennifer.mckelvie@parl.gc.ca"
+  },
+  {
+    "firstName": "David",
+    "lastName": "McKenzie",
+    "fullName": "David McKenzie",
+    "constituency": "Calgary Signal Hill",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "david.mckenzie@parl.gc.ca"
+  },
+  {
+    "firstName": "Ron",
+    "lastName": "McKinnon",
+    "fullName": "Ron McKinnon",
+    "constituency": "Coquitlam—Port Coquitlam",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "ron.mckinnon@parl.gc.ca"
+  },
+  {
+    "firstName": "Jill",
+    "lastName": "McKnight",
+    "fullName": "Jill McKnight",
+    "constituency": "Delta",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "jill.mcknight@parl.gc.ca"
+  },
+  {
+    "firstName": "Greg",
+    "lastName": "McLean",
+    "fullName": "Greg McLean",
+    "constituency": "Calgary Centre",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "greg.mclean@parl.gc.ca"
+  },
+  {
+    "firstName": "Stephanie",
+    "lastName": "McLean",
+    "fullName": "Stephanie McLean",
+    "constituency": "Esquimalt—Saanich—Sooke",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "stephanie.mclean@parl.gc.ca"
+  },
+  {
+    "firstName": "Heather",
+    "lastName": "McPherson",
+    "fullName": "Heather McPherson",
+    "constituency": "Edmonton Strathcona",
+    "province": "Alberta",
+    "party": "NDP",
+    "email": "heather.mcpherson@parl.gc.ca"
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "Melillo",
+    "fullName": "Eric Melillo",
+    "constituency": "Kenora—Kiiwetinoong",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "eric.melillo@parl.gc.ca"
+  },
+  {
+    "firstName": "Alexandra",
+    "lastName": "Mendès",
+    "fullName": "Alexandra Mendès",
+    "constituency": "Brossard—Saint-Lambert",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "alexandra.mendes@parl.gc.ca"
+  },
+  {
+    "firstName": "Costas",
+    "lastName": "Menegakis",
+    "fullName": "Costas Menegakis",
+    "constituency": "Aurora—Oak Ridges—Richmond Hill",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "costas.menegakis@parl.gc.ca"
+  },
+  {
+    "firstName": "Lena",
+    "lastName": "Metlege Diab",
+    "fullName": "Lena Metlege Diab",
+    "constituency": "Halifax West",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "lena.metlegediab@parl.gc.ca"
+  },
+  {
+    "firstName": "Marjorie",
+    "lastName": "Michel",
+    "fullName": "Marjorie Michel",
+    "constituency": "Papineau",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "marjorie.michel@parl.gc.ca"
+  },
+  {
+    "firstName": "Shannon",
+    "lastName": "Miedema",
+    "fullName": "Shannon Miedema",
+    "constituency": "Halifax",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "shannon.miedema@parl.gc.ca"
+  },
+  {
+    "firstName": "Marc",
+    "lastName": "Miller",
+    "fullName": "Marc Miller",
+    "constituency": "Ville-Marie—Le Sud-Ouest—Île-des-Soeurs",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "marc.miller@parl.gc.ca"
+  },
+  {
+    "firstName": "Giovanna",
+    "lastName": "Mingarelli",
+    "fullName": "Giovanna Mingarelli",
+    "constituency": "Prescott—Russell—Cumberland",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "giovanna.mingarelli@parl.gc.ca"
+  },
+  {
+    "firstName": "Rob",
+    "lastName": "Moore",
+    "fullName": "Rob Moore",
+    "constituency": "Fundy Royal",
+    "province": "New Brunswick",
+    "party": "Conservative",
+    "email": "rob.moore@parl.gc.ca"
+  },
+  {
+    "firstName": "Billy",
+    "lastName": "Morin",
+    "fullName": "Billy Morin",
+    "constituency": "Edmonton Northwest",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "billy.morin@parl.gc.ca"
+  },
+  {
+    "firstName": "Rob",
+    "lastName": "Morrison",
+    "fullName": "Rob Morrison",
+    "constituency": "Columbia—Kootenay—Southern Rockies",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "rob.morrison@parl.gc.ca"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Morrissey",
+    "fullName": "Robert Morrissey",
+    "constituency": "Egmont",
+    "province": "Prince Edward Island",
+    "party": "Liberal",
+    "email": "robert.morrissey@parl.gc.ca"
+  },
+  {
+    "firstName": "Glen",
+    "lastName": "Motz",
+    "fullName": "Glen Motz",
+    "constituency": "Medicine Hat—Cardston—Warner",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "glen.motz@parl.gc.ca"
+  },
+  {
+    "firstName": "Dan",
+    "lastName": "Muys",
+    "fullName": "Dan Muys",
+    "constituency": "Flamborough—Glanbrook—Brant North",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "dan.muys@parl.gc.ca"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Myles",
+    "fullName": "David Myles",
+    "constituency": "Fredericton—Oromocto",
+    "province": "New Brunswick",
+    "party": "Liberal",
+    "email": "david.myles@parl.gc.ca"
+  },
+  {
+    "firstName": "Marie-Gabrielle",
+    "lastName": "Ménard",
+    "fullName": "Marie-Gabrielle Ménard",
+    "constituency": "Hochelaga—Rosemont-Est",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Marie-Gabrielle.Menard@parl.gc.ca"
+  },
+  {
+    "firstName": "Yasir",
+    "lastName": "Naqvi",
+    "fullName": "Yasir Naqvi",
+    "constituency": "Ottawa Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "yasir.naqvi@parl.gc.ca"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Nater",
+    "fullName": "John Nater",
+    "constituency": "Perth—Wellington",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "john.nater@parl.gc.ca"
+  },
+  {
+    "firstName": "Juanita",
+    "lastName": "Nathan",
+    "fullName": "Juanita Nathan",
+    "constituency": "Pickering—Brooklin",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "juanita.nathan@parl.gc.ca"
+  },
+  {
+    "firstName": "Vincent",
+    "lastName": "Neil Ho",
+    "fullName": "Vincent Neil Ho",
+    "constituency": "Richmond Hill South",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "vincent.neilho@parl.gc.ca"
+  },
+  {
+    "firstName": "Chi",
+    "lastName": "Nguyen",
+    "fullName": "Chi Nguyen",
+    "constituency": "Spadina—Harbourfront",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "chi.nguyen@parl.gc.ca"
+  },
+  {
+    "firstName": "Taleeb",
+    "lastName": "Noormohamed",
+    "fullName": "Taleeb Noormohamed",
+    "constituency": "Vancouver Granville",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "taleeb.noormohamed@parl.gc.ca"
+  },
+  {
+    "firstName": "Christine",
+    "lastName": "Normandin",
+    "fullName": "Christine Normandin",
+    "constituency": "Saint-Jean",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "christine.normandin@parl.gc.ca"
+  },
+  {
+    "firstName": "Bienvenu-Olivier",
+    "lastName": "Ntumba",
+    "fullName": "Bienvenu-Olivier Ntumba",
+    "constituency": "Mont-Saint-Bruno—L'Acadie",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Bienvenu-Olivier.Ntumba@parl.gc.ca"
+  },
+  {
+    "firstName": "Dominique",
+    "lastName": "O'Rourke",
+    "fullName": "Dominique O'Rourke",
+    "constituency": "Guelph",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "dominique.orourke@parl.gc.ca"
+  },
+  {
+    "firstName": "Robert",
+    "lastName": "Oliphant",
+    "fullName": "Robert Oliphant",
+    "constituency": "Don Valley West",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "robert.oliphant@parl.gc.ca"
+  },
+  {
+    "firstName": "Eleanor",
+    "lastName": "Olszewski",
+    "fullName": "Eleanor Olszewski",
+    "constituency": "Edmonton Centre",
+    "province": "Alberta",
+    "party": "Liberal",
+    "email": "eleanor.olszewski@parl.gc.ca"
+  },
+  {
+    "firstName": "Tom",
+    "lastName": "Osborne",
+    "fullName": "Tom Osborne",
+    "constituency": "Cape Spear",
+    "province": "Newfoundland and Labrador",
+    "party": "Liberal",
+    "email": "tom.osborne@parl.gc.ca"
+  },
+  {
+    "firstName": "Jeremy",
+    "lastName": "Patzer",
+    "fullName": "Jeremy Patzer",
+    "constituency": "Swift Current—Grasslands—Kindersley",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "jeremy.patzer@parl.gc.ca"
+  },
+  {
+    "firstName": "Pierre",
+    "lastName": "Paul-Hus",
+    "fullName": "Pierre Paul-Hus",
+    "constituency": "Charlesbourg—Haute-Saint-Charles",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "Pierre.Paul-Hus@parl.gc.ca"
+  },
+  {
+    "firstName": "Yves",
+    "lastName": "Perron",
+    "fullName": "Yves Perron",
+    "constituency": "Berthier—Maskinongé",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "yves.perron@parl.gc.ca"
+  },
+  {
+    "firstName": "Ginette",
+    "lastName": "Petitpas Taylor",
+    "fullName": "Ginette Petitpas Taylor",
+    "constituency": "Moncton—Dieppe",
+    "province": "New Brunswick",
+    "party": "Liberal",
+    "email": "ginette.petitpastaylor@parl.gc.ca"
+  },
+  {
+    "firstName": "Louis",
+    "lastName": "Plamondon",
+    "fullName": "Louis Plamondon",
+    "constituency": "Bécancour—Nicolet—Saurel—Alnôbak",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "louis.plamondon@parl.gc.ca"
+  },
+  {
+    "firstName": "Pierre",
+    "lastName": "Poilievre",
+    "fullName": "Pierre Poilievre",
+    "constituency": "Battle River—Crowfoot",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "pierre.poilievre@parl.gc.ca"
+  },
+  {
+    "firstName": "Marcus",
+    "lastName": "Powlowski",
+    "fullName": "Marcus Powlowski",
+    "constituency": "Thunder Bay—Rainy River",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "marcus.powlowski@parl.gc.ca"
+  },
+  {
+    "firstName": "Nathalie",
+    "lastName": "Provost",
+    "fullName": "Nathalie Provost",
+    "constituency": "Châteauguay—Les Jardins-de-Napierville",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "nathalie.provost@parl.gc.ca"
+  },
+  {
+    "firstName": "Jacques",
+    "lastName": "Ramsay",
+    "fullName": "Jacques Ramsay",
+    "constituency": "La Prairie—Atateken",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "jacques.ramsay@parl.gc.ca"
+  },
+  {
+    "firstName": "Aslam",
+    "lastName": "Rana",
+    "fullName": "Aslam Rana",
+    "constituency": "Hamilton Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "aslam.rana@parl.gc.ca"
+  },
+  {
+    "firstName": "Brad",
+    "lastName": "Redekopp",
+    "fullName": "Brad Redekopp",
+    "constituency": "Saskatoon West",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "brad.redekopp@parl.gc.ca"
+  },
+  {
+    "firstName": "Scott",
+    "lastName": "Reid",
+    "fullName": "Scott Reid",
+    "constituency": "Lanark—Frontenac",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "scott.reid@parl.gc.ca"
+  },
+  {
+    "firstName": "Michelle",
+    "lastName": "Rempel Garner",
+    "fullName": "Michelle Rempel Garner",
+    "constituency": "Calgary Nose Hill",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "michelle.rempelgarner@parl.gc.ca"
+  },
+  {
+    "firstName": "Colin",
+    "lastName": "Reynolds",
+    "fullName": "Colin Reynolds",
+    "constituency": "Elmwood—Transcona",
+    "province": "Manitoba",
+    "party": "Conservative",
+    "email": "colin.reynolds@parl.gc.ca"
+  },
+  {
+    "firstName": "Blake",
+    "lastName": "Richards",
+    "fullName": "Blake Richards",
+    "constituency": "Airdrie—Cochrane",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "blake.richards@parl.gc.ca"
+  },
+  {
+    "firstName": "Anna",
+    "lastName": "Roberts",
+    "fullName": "Anna Roberts",
+    "constituency": "King—Vaughan",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "anna.roberts@parl.gc.ca"
+  },
+  {
+    "firstName": "Gregor",
+    "lastName": "Robertson",
+    "fullName": "Gregor Robertson",
+    "constituency": "Vancouver Fraserview—South Burnaby",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "gregor.robertson@parl.gc.ca"
+  },
+  {
+    "firstName": "Pauline",
+    "lastName": "Rochefort",
+    "fullName": "Pauline Rochefort",
+    "constituency": "Nipissing—Timiskaming",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "pauline.rochefort@parl.gc.ca"
+  },
+  {
+    "firstName": "Sherry",
+    "lastName": "Romanado",
+    "fullName": "Sherry Romanado",
+    "constituency": "Longueuil—Charles-LeMoyne",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "sherry.romanado@parl.gc.ca"
+  },
+  {
+    "firstName": "Lianne",
+    "lastName": "Rood",
+    "fullName": "Lianne Rood",
+    "constituency": "Middlesex—London",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "lianne.rood@parl.gc.ca"
+  },
+  {
+    "firstName": "Ellis",
+    "lastName": "Ross",
+    "fullName": "Ellis Ross",
+    "constituency": "Skeena—Bulkley Valley",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "ellis.ross@parl.gc.ca"
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Rowe",
+    "fullName": "Jonathan Rowe",
+    "constituency": "Terra Nova—The Peninsulas",
+    "province": "Newfoundland and Labrador",
+    "party": "Conservative",
+    "email": "jonathan.rowe@parl.gc.ca"
+  },
+  {
+    "firstName": "Zoe",
+    "lastName": "Royer",
+    "fullName": "Zoe Royer",
+    "constituency": "Port Moody—Coquitlam",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "zoe.royer@parl.gc.ca"
+  },
+  {
+    "firstName": "Alex",
+    "lastName": "Ruff",
+    "fullName": "Alex Ruff",
+    "constituency": "Bruce—Grey—Owen Sound",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "alex.ruff@parl.gc.ca"
+  },
+  {
+    "firstName": "Amanpreet",
+    "lastName": "S. Gill",
+    "fullName": "Amanpreet S. Gill",
+    "constituency": "Calgary Skyview",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "amanpreet.gill@parl.gc.ca"
+  },
+  {
+    "firstName": "Ruby",
+    "lastName": "Sahota",
+    "fullName": "Ruby Sahota",
+    "constituency": "Brampton North—Caledon",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "ruby.sahota@parl.gc.ca"
+  },
+  {
+    "firstName": "Gurbux",
+    "lastName": "Saini",
+    "fullName": "Gurbux Saini",
+    "constituency": "Fleetwood—Port Kells",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "gurbux.saini@parl.gc.ca"
+  },
+  {
+    "firstName": "Randeep",
+    "lastName": "Sarai",
+    "fullName": "Randeep Sarai",
+    "constituency": "Surrey Centre",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "randeep.sarai@parl.gc.ca"
+  },
+  {
+    "firstName": "Abdelhaq",
+    "lastName": "Sari",
+    "fullName": "Abdelhaq Sari",
+    "constituency": "Bourassa",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "abdelhaq.sari@parl.gc.ca"
+  },
+  {
+    "firstName": "Simon-Pierre",
+    "lastName": "Savard-Tremblay",
+    "fullName": "Simon-Pierre Savard-Tremblay",
+    "constituency": "Saint-Hyacinthe—Bagot—Acton",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Simon-Pierre.Savard-Tremblay@parl.gc.ca"
+  },
+  {
+    "firstName": "Jake",
+    "lastName": "Sawatzky",
+    "fullName": "Jake Sawatzky",
+    "constituency": "New Westminster—Burnaby—Maillardville",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "jake.sawatzky@parl.gc.ca"
+  },
+  {
+    "firstName": "Francis",
+    "lastName": "Scarpaleggia",
+    "fullName": "Francis Scarpaleggia",
+    "constituency": "Lac-Saint-Louis",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "francis.scarpaleggia@parl.gc.ca"
+  },
+  {
+    "firstName": "Andrew",
+    "lastName": "Scheer",
+    "fullName": "Andrew Scheer",
+    "constituency": "Regina—Qu'Appelle",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "andrew.scheer@parl.gc.ca"
+  },
+  {
+    "firstName": "Peter",
+    "lastName": "Schiefke",
+    "fullName": "Peter Schiefke",
+    "constituency": "Vaudreuil",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "peter.schiefke@parl.gc.ca"
+  },
+  {
+    "firstName": "Jamie",
+    "lastName": "Schmale",
+    "fullName": "Jamie Schmale",
+    "constituency": "Haliburton—Kawartha Lakes",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "jamie.schmale@parl.gc.ca"
+  },
+  {
+    "firstName": "Kyle",
+    "lastName": "Seeback",
+    "fullName": "Kyle Seeback",
+    "constituency": "Dufferin—Caledon",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "kyle.seeback@parl.gc.ca"
+  },
+  {
+    "firstName": "Terry",
+    "lastName": "Sheehan",
+    "fullName": "Terry Sheehan",
+    "constituency": "Sault Ste. Marie—Algoma",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "terry.sheehan@parl.gc.ca"
+  },
+  {
+    "firstName": "Doug",
+    "lastName": "Shipley",
+    "fullName": "Doug Shipley",
+    "constituency": "Barrie—Springwater—Oro-Medonte",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "doug.shipley@parl.gc.ca"
+  },
+  {
+    "firstName": "Maninder",
+    "lastName": "Sidhu",
+    "fullName": "Maninder Sidhu",
+    "constituency": "Brampton East",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "maninder.sidhu@parl.gc.ca"
+  },
+  {
+    "firstName": "Sonia",
+    "lastName": "Sidhu",
+    "fullName": "Sonia Sidhu",
+    "constituency": "Brampton South",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "sonia.sidhu@parl.gc.ca"
+  },
+  {
+    "firstName": "Mario",
+    "lastName": "Simard",
+    "fullName": "Mario Simard",
+    "constituency": "Jonquière",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "mario.simard@parl.gc.ca"
+  },
+  {
+    "firstName": "Jagsharan",
+    "lastName": "Singh Mahal",
+    "fullName": "Jagsharan Singh Mahal",
+    "constituency": "Edmonton Southeast",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "jagsharan.singhmahal@parl.gc.ca"
+  },
+  {
+    "firstName": "Clifford",
+    "lastName": "Small",
+    "fullName": "Clifford Small",
+    "constituency": "Central Newfoundland",
+    "province": "Newfoundland and Labrador",
+    "party": "Conservative",
+    "email": "clifford.small@parl.gc.ca"
+  },
+  {
+    "firstName": "Amandeep",
+    "lastName": "Sodhi",
+    "fullName": "Amandeep Sodhi",
+    "constituency": "Brampton Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "amandeep.sodhi@parl.gc.ca"
+  },
+  {
+    "firstName": "Evan",
+    "lastName": "Solomon",
+    "fullName": "Evan Solomon",
+    "constituency": "Toronto Centre",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "evan.solomon@parl.gc.ca"
+  },
+  {
+    "firstName": "Charles",
+    "lastName": "Sousa",
+    "fullName": "Charles Sousa",
+    "constituency": "Mississauga—Lakeshore",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "charles.sousa@parl.gc.ca"
+  },
+  {
+    "firstName": "Eric",
+    "lastName": "St-Pierre",
+    "fullName": "Eric St-Pierre",
+    "constituency": "Honoré-Mercier",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "Eric.St-Pierre@parl.gc.ca"
+  },
+  {
+    "firstName": "Gabriel",
+    "lastName": "Ste-Marie",
+    "fullName": "Gabriel Ste-Marie",
+    "constituency": "Joliette—Manawan",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "Gabriel.Ste-Marie@parl.gc.ca"
+  },
+  {
+    "firstName": "Warren",
+    "lastName": "Steinley",
+    "fullName": "Warren Steinley",
+    "constituency": "Regina—Lewvan",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "warren.steinley@parl.gc.ca"
+  },
+  {
+    "firstName": "William",
+    "lastName": "Stevenson",
+    "fullName": "William Stevenson",
+    "constituency": "Yellowhead",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "william.stevenson@parl.gc.ca"
+  },
+  {
+    "firstName": "Mark",
+    "lastName": "Strahl",
+    "fullName": "Mark Strahl",
+    "constituency": "Chilliwack—Hope",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "mark.strahl@parl.gc.ca"
+  },
+  {
+    "firstName": "Matt",
+    "lastName": "Strauss",
+    "fullName": "Matt Strauss",
+    "constituency": "Kitchener South—Hespeler",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "matt.strauss@parl.gc.ca"
+  },
+  {
+    "firstName": "Shannon",
+    "lastName": "Stubbs",
+    "fullName": "Shannon Stubbs",
+    "constituency": "Lakeland",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "shannon.stubbs@parl.gc.ca"
+  },
+  {
+    "firstName": "Jenna",
+    "lastName": "Sudds",
+    "fullName": "Jenna Sudds",
+    "constituency": "Kanata",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "jenna.sudds@parl.gc.ca"
+  },
+  {
+    "firstName": "Kristina",
+    "lastName": "Tesser Derksen",
+    "fullName": "Kristina Tesser Derksen",
+    "constituency": "Milton East—Halton Hills South",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "kristina.tesserderksen@parl.gc.ca"
+  },
+  {
+    "firstName": "Rachael",
+    "lastName": "Thomas",
+    "fullName": "Rachael Thomas",
+    "constituency": "Lethbridge",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "rachael.thomas@parl.gc.ca"
+  },
+  {
+    "firstName": "Joanne",
+    "lastName": "Thompson",
+    "fullName": "Joanne Thompson",
+    "constituency": "St. John's East",
+    "province": "Newfoundland and Labrador",
+    "party": "Liberal",
+    "email": "joanne.thompson@parl.gc.ca"
+  },
+  {
+    "firstName": "Luc",
+    "lastName": "Thériault",
+    "fullName": "Luc Thériault",
+    "constituency": "Montcalm",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "luc.theriault@parl.gc.ca"
+  },
+  {
+    "firstName": "Corey",
+    "lastName": "Tochor",
+    "fullName": "Corey Tochor",
+    "constituency": "Saskatoon—University",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "corey.tochor@parl.gc.ca"
+  },
+  {
+    "firstName": "Fraser",
+    "lastName": "Tolmie",
+    "fullName": "Fraser Tolmie",
+    "constituency": "Moose Jaw—Lake Centre—Lanigan",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "fraser.tolmie@parl.gc.ca"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Turnbull",
+    "fullName": "Ryan Turnbull",
+    "constituency": "Whitby",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "ryan.turnbull@parl.gc.ca"
+  },
+  {
+    "firstName": "Tim",
+    "lastName": "Uppal",
+    "fullName": "Tim Uppal",
+    "constituency": "Edmonton Gateway",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "tim.uppal@parl.gc.ca"
+  },
+  {
+    "firstName": "Rechie",
+    "lastName": "Valdez",
+    "fullName": "Rechie Valdez",
+    "constituency": "Mississauga—Streetsville",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "rechie.valdez@parl.gc.ca"
+  },
+  {
+    "firstName": "Tako",
+    "lastName": "Van Popta",
+    "fullName": "Tako Van Popta",
+    "constituency": "Langley Township—Fraser Heights",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "tako.vanpopta@parl.gc.ca"
+  },
+  {
+    "firstName": "Anita",
+    "lastName": "Vandenbeld",
+    "fullName": "Anita Vandenbeld",
+    "constituency": "Ottawa West—Nepean",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "anita.vandenbeld@parl.gc.ca"
+  },
+  {
+    "firstName": "Dominique",
+    "lastName": "Vien",
+    "fullName": "Dominique Vien",
+    "constituency": "Bellechasse—Les Etchemins—Lévis",
+    "province": "Quebec",
+    "party": "Conservative",
+    "email": "dominique.vien@parl.gc.ca"
+  },
+  {
+    "firstName": "Arnold",
+    "lastName": "Viersen",
+    "fullName": "Arnold Viersen",
+    "constituency": "Peace River—Westlock",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "arnold.viersen@parl.gc.ca"
+  },
+  {
+    "firstName": "Louis",
+    "lastName": "Villeneuve",
+    "fullName": "Louis Villeneuve",
+    "constituency": "Brome—Missisquoi",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "louis.villeneuve@parl.gc.ca"
+  },
+  {
+    "firstName": "Brad",
+    "lastName": "Vis",
+    "fullName": "Brad Vis",
+    "constituency": "Mission—Matsqui—Abbotsford",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "brad.vis@parl.gc.ca"
+  },
+  {
+    "firstName": "Cathay",
+    "lastName": "Wagantall",
+    "fullName": "Cathay Wagantall",
+    "constituency": "Yorkton—Melville",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "cathay.wagantall@parl.gc.ca"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "Warkentin",
+    "fullName": "Chris Warkentin",
+    "constituency": "Grande Prairie",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "chris.warkentin@parl.gc.ca"
+  },
+  {
+    "firstName": "Tim",
+    "lastName": "Watchorn",
+    "fullName": "Tim Watchorn",
+    "constituency": "Les Pays-d'en-Haut",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "tim.watchorn@parl.gc.ca"
+  },
+  {
+    "firstName": "Kevin",
+    "lastName": "Waugh",
+    "fullName": "Kevin Waugh",
+    "constituency": "Saskatoon—Grasswood",
+    "province": "Saskatchewan",
+    "party": "Conservative",
+    "email": "kevin.waugh@parl.gc.ca"
+  },
+  {
+    "firstName": "Len",
+    "lastName": "Webber",
+    "fullName": "Len Webber",
+    "constituency": "Calgary—Rocky Ridge",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "len.webber@parl.gc.ca"
+  },
+  {
+    "firstName": "Patrick",
+    "lastName": "Weiler",
+    "fullName": "Patrick Weiler",
+    "constituency": "West Vancouver—Sunshine Coast—Sea to Sky Country",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "patrick.weiler@parl.gc.ca"
+  },
+  {
+    "firstName": "Jonathan",
+    "lastName": "Wilkinson",
+    "fullName": "Jonathan Wilkinson",
+    "constituency": "North Vancouver—Capilano",
+    "province": "British Columbia",
+    "party": "Liberal",
+    "email": "jonathan.wilkinson@parl.gc.ca"
+  },
+  {
+    "firstName": "Ryan",
+    "lastName": "Williams",
+    "fullName": "Ryan Williams",
+    "constituency": "Bay of Quinte—Peterborough South",
+    "province": "Ontario",
+    "party": "Conservative",
+    "email": "ryan.williams@parl.gc.ca"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Williamson",
+    "fullName": "John Williamson",
+    "constituency": "Saint John—St. Croix",
+    "province": "New Brunswick",
+    "party": "Conservative",
+    "email": "john.williamson@parl.gc.ca"
+  },
+  {
+    "firstName": "Jean",
+    "lastName": "Yip",
+    "fullName": "Jean Yip",
+    "constituency": "Scarborough—Agincourt",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "jean.yip@parl.gc.ca"
+  },
+  {
+    "firstName": "Kate",
+    "lastName": "Young",
+    "fullName": "Kate Young",
+    "constituency": "London West",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "kate.young@parl.gc.ca"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Yurdiga",
+    "fullName": "David Yurdiga",
+    "constituency": "Fort McMurray—Lakeland",
+    "province": "Alberta",
+    "party": "Conservative",
+    "email": "david.yurdiga@parl.gc.ca"
+  },
+  {
+    "firstName": "Salma",
+    "lastName": "Zahid",
+    "fullName": "Salma Zahid",
+    "constituency": "Scarborough Centre—Don Valley East",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "salma.zahid@parl.gc.ca"
+  },
+  {
+    "firstName": "John",
+    "lastName": "Zerucelli",
+    "fullName": "John Zerucelli",
+    "constituency": "Etobicoke North",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "john.zerucelli@parl.gc.ca"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Zimmer",
+    "fullName": "Bob Zimmer",
+    "constituency": "Prince George—Peace River—Northern Rockies",
+    "province": "British Columbia",
+    "party": "Conservative",
+    "email": "bob.zimmer@parl.gc.ca"
+  },
+  {
+    "firstName": "Sameer",
+    "lastName": "Zuberi",
+    "fullName": "Sameer Zuberi",
+    "constituency": "Pierrefonds—Dollard",
+    "province": "Quebec",
+    "party": "Liberal",
+    "email": "sameer.zuberi@parl.gc.ca"
+  },
+  {
+    "firstName": "Chris",
+    "lastName": "d'Entremont",
+    "fullName": "Chris d'Entremont",
+    "constituency": "Acadie—Annapolis",
+    "province": "Nova Scotia",
+    "party": "Liberal",
+    "email": "chris.dentremont@parl.gc.ca"
+  },
+  {
+    "firstName": "Adam",
+    "lastName": "van Koeverden",
+    "fullName": "Adam van Koeverden",
+    "constituency": "Burlington North—Milton West",
+    "province": "Ontario",
+    "party": "Liberal",
+    "email": "adam.vankoeverden@parl.gc.ca"
+  },
+  {
+    "firstName": "Rhéal",
+    "lastName": "Éloi Fortin",
+    "fullName": "Rhéal Éloi Fortin",
+    "constituency": "Rivière-du-Nord",
+    "province": "Quebec",
+    "party": "Bloc Québécois",
+    "email": "rheal.eloifortin@parl.gc.ca"
+  }
+]
