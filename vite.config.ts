@@ -8,7 +8,7 @@ const __dirname = dirname(__filename);
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/freedomforiran-project.github.io/',
+  base: process.env.NODE_ENV === 'production' ? '/freedomforiran-project.github.io/' : '/',
   plugins: [react()],
   resolve: {
     alias: {

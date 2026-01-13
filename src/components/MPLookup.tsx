@@ -47,7 +47,7 @@ Sincerely,
 
   // Load MP data on component mount
   useEffect(() => {
-    fetch('/mps-data.json')
+    fetch(`${import.meta.env.BASE_URL}mps-data.json`)
       .then(res => res.json())
       .then(data => setAllMPs(data))
       .catch(err => console.error('Failed to load MP data:', err));
