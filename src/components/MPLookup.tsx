@@ -134,7 +134,7 @@ Sincerely,
               actualConstituency: constituencyName,
               postalCode: queryUpper
             });
-            setError(`Note: The constituency "${constituencyName}" seat is currently vacant or not in our database. Your email will be sent to Mark Carney (Deputy Prime Minister) with your constituency information.`);
+            setError(`Note: The constituency "${constituencyName}" seat is currently vacant or not in our database. Your email will be sent to Mark Carney (Prime Minister) with your constituency information.`);
           } else {
             setError(`Found constituency "${constituencyName}" but couldn't match with MP database. Try searching by name instead.`);
           }
@@ -296,7 +296,7 @@ Sincerely,
           {mp && (
             <div className="mt-6 p-6 bg-green-50 border-2 border-green-200 rounded-lg">
               <h2 className="text-xl font-bold text-gray-900 mb-4">
-                {mp.isDefault ? 'Contact Deputy Prime Minister' : 'Your Member of Parliament'}
+                {mp.isDefault ? 'Contact Prime Minister' : 'Your Member of Parliament'}
               </h2>
 
               {mp.isDefault && mp.actualConstituency && (
@@ -304,7 +304,7 @@ Sincerely,
                   <p className="text-sm text-yellow-800">
                     <span className="font-semibold">Your Constituency:</span> {mp.actualConstituency}
                     <br />
-                    <span className="text-xs">This seat is currently vacant. Your email will go to the Deputy Prime Minister with your constituency information included.</span>
+                    <span className="text-xs">This seat is currently vacant. Your email will go to the Prime Minister with your constituency information included.</span>
                   </p>
                 </div>
               )}
