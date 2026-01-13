@@ -22,28 +22,33 @@ const MPLookup: React.FC = () => {
   const [allMPs, setAllMPs] = useState<MP[]>([]);
   const [suggestions, setSuggestions] = useState<MP[]>([]);
 
-  const EMAIL_TEMPLATE = `Subject: Urgent Action Needed: Iran Crisis and Human Rights Violations
+  const getEmailTemplate = () => {
+    // Calculate days since January 8, 2026
+    const startDate = new Date('2026-01-08');
+    startDate.setHours(0, 0, 0, 0); // Set to start of day
+    const today = new Date();
+    today.setHours(0, 0, 0, 0); // Set to start of day
+    const diffTime = today.getTime() - startDate.getTime();
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+    return `Subject: RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic
+
 
 Dear [MP_NAME],
 
-I am writing to you as your constituent regarding the ongoing humanitarian crisis and human rights violations in Iran.
+I am writing to you as one of your constituents. As I am writing this email, millions of Iranians have taken to the streets all over Iran since late December 2025, to protest against the Islamic Republic of Iran. The government has shut down the internet and phone lines. For ${diffDays} consecutive days, we have been unable to reach our families in Iran. The regime has held the Iranian people hostage and by cutting off internet connectivity and isolating Iran from the outside world, it has intensified its crackdown on protesters. There have been reports that thousands of protestors have been killed and countless others injured.
 
-Recent events have shown a continued pattern of state violence against peaceful protesters, arbitrary arrests, and suppression of fundamental freedoms. The situation demands immediate international attention and action from the Canadian government.
+As a Member of the Parliament of Canada, a country that is among the most diverse and home to one of the largest communities of the Iranian diaspora in the world, the role of your office extends far beyond the Canadian borders and your silence fails to stand with the Iranian-Canadians that looks to their elected representatives for leadership. As you know, for decades, the Iranian regime has held the country and the Iranians hostage, has engaged in systemic repression, including arbitrary detention, execution, torture, censorship and violent suppression of peaceful protests. In fact, the Government of Canada has formally recognized the Islamic Republic as a regime that has engaged in terrorism and systematic or gross human rights violations. Protestors are once again facing the brutality and terror of the Islamic Revolutionary Guard Corps (IRGC), which is recognized as a terrorist organization under the Criminal Code.
 
-I urge you to:
-1. Publicly condemn the human rights violations occurring in Iran
-2. Call for accountability for those responsible for violence against civilians
-3. Support efforts to impose targeted sanctions on Iranian officials involved in these abuses
-4. Advocate for increased support for Iranian civil society and human rights defenders
+I appreciate the multitude of other issues before Parliament and the demands of your office.  However, we are at a pivotal and defining moment in history - one in which every statement, action and expression of support matters. Time is of the essence. A revolution is underway.
 
-As my representative in Parliament, I ask that you raise this critical issue and push for concrete action to support the Iranian people in their struggle for freedom and justice.
+As a constituent, I ask that you publicly and unequivocally denounce the Islamic Republic of Iran, acknowledge and amplify the voices of the protestors in Iran, advocate within the Parliament for continued and expanded measures to hold Iranian officials accountable, support independent human rights investigations, and clearly stand with the people of Iran. When our leaders speak unequivocally and consistently, it sends a signal that Canada does not condone and will not normalize repression, terrorism, or overlook state violence.
 
-Thank you for your attention to this urgent matter.
+This is a revolution for a free Iran and a better world. Stand with us.
 
 Sincerely,
-[Your Name]
-[Your City/Town]
-`;
+[Your Name]`;
+  };
 
   // Load MP data on component mount
   useEffect(() => {
@@ -172,18 +177,21 @@ Sincerely,
   };
 
   const createMailtoLink = (mpData: MP) => {
-    const subject = encodeURIComponent('Urgent Action Needed: Iran Crisis and Human Rights Violations');
+    const subject = encodeURIComponent('RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic');
 
-    let emailBody = EMAIL_TEMPLATE.replace('[MP_NAME]', mpData.fullName);
+    let emailBody = getEmailTemplate().replace('[MP_NAME]', mpData.fullName);
 
-    // If this is a fallback to Mark Carney for a vacant seat, add constituency info
+    // Clean up placeholders - keep [Your Name] for user to fill in
+    emailBody = emailBody.replace('[MP_NAME]', mpData.fullName);
+
+    // Add constituency and province info at the bottom
+    const locationInfo = `\n${mpData.constituency}, ${mpData.province}`;
+    emailBody = emailBody + locationInfo;
+
+    // If this is a fallback to Mark Carney for a vacant seat, add additional note
     if (mpData.isDefault && mpData.actualConstituency) {
       const constituencyNote = `\n\nNote: I am writing from the ${mpData.actualConstituency} constituency${mpData.postalCode ? ` (Postal Code: ${mpData.postalCode})` : ''}, which currently has a vacant seat. I am reaching out to you as Deputy Prime Minister to ensure this important issue receives attention.`;
-      emailBody = emailBody.replace('[Your City/Town]', constituencyNote);
-    } else {
-      emailBody = emailBody
-        .replace('[Your Name]', '')
-        .replace('[Your City/Town]', '');
+      emailBody = emailBody + constituencyNote;
     }
 
     const body = encodeURIComponent(emailBody);
