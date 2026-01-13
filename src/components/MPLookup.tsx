@@ -208,7 +208,7 @@ Sincerely,
             </h1>
           </div>
           <p className="text-lg text-gray-600 mb-2">
-            Take action by emailing your Member of Parliament regarding the ongoing humanitarian crisis in Iran
+            Take action by emailing your Canadian Member of Parliament regarding the ongoing humanitarian crisis in Iran
           </p>
           <p className="text-sm text-gray-500">
             Search by postal code, MP name, constituency, or city
