@@ -201,9 +201,9 @@ Sincerely,
       <div className="max-w-2xl w-full">
         {/* Header */}
         <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-6 mb-4">
-            <img src="/flag.svg" alt="Iranian Flag" className="w-16 h-16 md:w-20 md:h-20 flex-shrink-0" />
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-900 whitespace-nowrap">
+          <div className="flex items-center justify-center gap-4 md:gap-6 mb-4">
+            <img src="/flag.svg" alt="Iranian Flag" className="w-12 h-12 md:w-20 md:h-20 flex-shrink-0" />
+            <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold text-gray-900 leading-tight">
               Contact Your MP About Iran
             </h1>
           </div>
