@@ -59,10 +59,7 @@ const MPLookup: React.FC = () => {
     const diffTime = today.getTime() - startDate.getTime();
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-    return `Subject: RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic
-
-
-Dear [MP_NAME],
+    return `Dear [MP_NAME],
 
 I am writing to you as one of your constituents. As I am writing this email, millions of Iranians have taken to the streets all over Iran since late December 2025, to protest against the Islamic Republic of Iran. The government has shut down the internet and phone lines. For ${diffDays} consecutive days, we have been unable to reach our families in Iran. The regime has held the Iranian people hostage and by cutting off internet connectivity and isolating Iran from the outside world, it has intensified its crackdown on protesters. There have been reports that thousands of protestors have been killed and countless others injured.
 
