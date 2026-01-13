@@ -46,8 +46,10 @@ As a constituent, I ask that you publicly and unequivocally denounce the Islamic
 
 This is a revolution for a free Iran and a better world. Stand with us.
 
+[CONSTITUENCY_INFO]
+
 Sincerely,
-[Your Name]`;
+`;
   };
 
   // Load MP data on component mount
@@ -181,12 +183,12 @@ Sincerely,
 
     let emailBody = getEmailTemplate().replace('[MP_NAME]', mpData.fullName);
 
-    // Clean up placeholders - keep [Your Name] for user to fill in
+    // Clean up placeholders
     emailBody = emailBody.replace('[MP_NAME]', mpData.fullName);
 
-    // Add constituency and province info at the bottom
-    const locationInfo = `\n${mpData.constituency}, ${mpData.province}`;
-    emailBody = emailBody + locationInfo;
+    // Add constituency and province info before "Sincerely,"
+    const locationInfo = `${mpData.constituency}, ${mpData.province}`;
+    emailBody = emailBody.replace('[CONSTITUENCY_INFO]', locationInfo);
 
     // If this is a fallback to Mark Carney for a vacant seat, add additional note
     if (mpData.isDefault && mpData.actualConstituency) {
