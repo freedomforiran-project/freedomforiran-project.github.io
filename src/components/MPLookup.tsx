@@ -21,6 +21,7 @@ const MPLookup: React.FC = () => {
   const [error, setError] = useState('');
   const [allMPs, setAllMPs] = useState<MP[]>([]);
   const [suggestions, setSuggestions] = useState<MP[]>([]);
+  const [usedPostalCode, setUsedPostalCode] = useState(false);
 
   // Google Form tracking
   const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScLi7l0Mmsh79QK438KjkoKdCHGe-PU8NWxpLtv62ED1XH24w/formResponse';
@@ -102,6 +103,7 @@ Sincerely,
     setError('');
     setMp(null);
     setSuggestions([]);
+    setUsedPostalCode(false);
 
     // Check if it's a postal code (Canadian format: A1A 1A1 or A1A1A1)
     const postalCodePattern = /^[A-Za-z]\d[A-Za-z]\s?\d[A-Za-z]\d$/;
@@ -109,6 +111,7 @@ Sincerely,
 
     if (postalCodePattern.test(query)) {
       // It's a postal code - use Represent API
+      setUsedPostalCode(true);
       try {
         const response = await fetch(
           `https://represent.opennorth.ca/postcodes/${queryUpper}/?sets=federal-electoral-districts`
@@ -328,6 +331,14 @@ Sincerely,
               <h2 className="text-xl font-bold text-gray-900 mb-4">
                 {mp.isDefault ? 'Contact Prime Minister' : 'Your Member of Parliament'}
               </h2>
+
+              {usedPostalCode && !mp.isDefault && (
+                <div className="mb-4 p-3 bg-gray-50 border border-gray-300 rounded-lg">
+                  <p className="text-sm text-gray-700">
+                    <span className="font-semibold">Note:</span> Postal code lookups may be inaccurate due to recent constituency boundary changes. Postal codes are primarily used for mail sorting and can span multiple electoral districts. If this MP does not represent your area, please search by your constituency name or MP name instead.
+                  </p>
+                </div>
+              )}
 
               {mp.isDefault && mp.actualConstituency && (
                 <div className="mb-4 p-3 bg-yellow-50 border border-yellow-200 rounded-lg">
