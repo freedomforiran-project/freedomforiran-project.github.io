@@ -22,6 +22,7 @@ const MPLookup: React.FC = () => {
   const [allMPs, setAllMPs] = useState<MP[]>([]);
   const [suggestions, setSuggestions] = useState<MP[]>([]);
   const [usedPostalCode, setUsedPostalCode] = useState(false);
+  const [emailTemplates, setEmailTemplates] = useState<any>(null);
 
   // Google Form tracking
   const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScLi7l0Mmsh79QK438KjkoKdCHGe-PU8NWxpLtv62ED1XH24w/formResponse';
@@ -51,7 +52,12 @@ const MPLookup: React.FC = () => {
     }).catch(() => {}); // Ignore errors silently
   };
 
-  const getEmailTemplate = () => {
+  const getEmailTemplate = (mpData: MP) => {
+    // If templates haven't loaded yet, return empty string
+    if (!emailTemplates) {
+      return '';
+    }
+
     // Calculate days since January 8, 2026
     const startDate = new Date('2026-01-08');
     startDate.setHours(0, 0, 0, 0); // Set to start of day
@@ -60,30 +66,32 @@ const MPLookup: React.FC = () => {
     const diffTime = today.getTime() - startDate.getTime();
     const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
 
-    return `Dear [MP_NAME],
+    let template: string;
 
-I am writing to you as one of your constituents. As I am writing this email, millions of Iranians have taken to the streets all over Iran since late December 2025, to protest against the Islamic Republic of Iran. The government has shut down the internet and phone lines. For ${diffDays} consecutive days, we have been unable to reach our families in Iran. The regime has held the Iranian people hostage and by cutting off internet connectivity and isolating Iran from the outside world, it has intensified its crackdown on protesters. There have been reports that thousands of protestors have been killed and countless others injured.
+    // Use specific template for Prime Minister
+    if (mpData.fullName === 'Mark Carney') {
+      template = emailTemplates.primeMinisterTemplate.body;
+    } else {
+      // Randomly select a template for regular MPs
+      const randomIndex = Math.floor(Math.random() * emailTemplates.regularTemplates.length);
+      template = emailTemplates.regularTemplates[randomIndex].body;
+    }
 
-As a Member of the Parliament of Canada, a country that is among the most diverse and home to one of the largest communities of the Iranian diaspora in the world, the role of your office extends far beyond the Canadian borders and your silence fails to stand with the Iranian-Canadians that looks to their elected representatives for leadership. As you know, for decades, the Iranian regime has held the country and the Iranians hostage, has engaged in systemic repression, including arbitrary detention, execution, torture, censorship and violent suppression of peaceful protests. In fact, the Government of Canada has formally recognized the Islamic Republic as a regime that has engaged in terrorism and systematic or gross human rights violations. Protestors are once again facing the brutality and terror of the Islamic Revolutionary Guard Corps (IRGC), which is recognized as a terrorist organization under the Criminal Code.
-
-I appreciate the multitude of other issues before Parliament and the demands of your office.  However, we are at a pivotal and defining moment in history - one in which every statement, action and expression of support matters. Time is of the essence. A revolution is underway.
-
-As a constituent, I ask that you publicly and unequivocally denounce the Islamic Republic of Iran, acknowledge and amplify the voices of the protestors in Iran, advocate within the Parliament for continued and expanded measures to hold Iranian officials accountable, support independent human rights investigations, and clearly stand with the people of Iran. When our leaders speak unequivocally and consistently, it sends a signal that Canada does not condone and will not normalize repression, terrorism, or overlook state violence.
-
-This is a revolution for a free Iran and a better world. Stand with us.
-
-[CONSTITUENCY_INFO]
-
-Sincerely,
-`;
+    // Replace the days count placeholder
+    return template.replace('[DAYS_COUNT]', diffDays.toString());
   };
 
-  // Load MP data on component mount
+  // Load MP data and email templates on component mount
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}mps-data.json`)
       .then(res => res.json())
       .then(data => setAllMPs(data))
       .catch(err => console.error('Failed to load MP data:', err));
+
+    fetch(`${import.meta.env.BASE_URL}email-templates.json`)
+      .then(res => res.json())
+      .then(data => setEmailTemplates(data))
+      .catch(err => console.error('Failed to load email templates:', err));
   }, []);
 
   const searchMP = async () => {
@@ -214,7 +222,7 @@ Sincerely,
   const createMailtoLink = (mpData: MP) => {
     const subject = encodeURIComponent('RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic');
 
-    let emailBody = getEmailTemplate().replace('[MP_NAME]', mpData.fullName);
+    let emailBody = getEmailTemplate(mpData).replace('[MP_NAME]', mpData.fullName);
 
     // Clean up placeholders
     emailBody = emailBody.replace('[MP_NAME]', mpData.fullName);
