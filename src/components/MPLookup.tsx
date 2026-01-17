@@ -445,7 +445,7 @@ const MPLookup: React.FC = () => {
                       <div className="p-4">
                         <h3 className="font-semibold text-lg text-gray-900 mb-2">{protest.title}</h3>
                         <div className="space-y-1 text-sm text-gray-600">
-                          <p><span className="font-medium">Date:</span> {new Date(protest.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                          <p><span className="font-medium">Date:</span> {new Date(protest.date + 'T12:00:00').toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
                           <p><span className="font-medium">Time:</span> {protest.time}</p>
                           <p><span className="font-medium">Location:</span> {protest.location}</p>
                           {protest.organizer && <p><span className="font-medium">Organizer:</span> {protest.organizer}</p>}
