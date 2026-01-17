@@ -1,0 +1,14 @@
+{
+  "protests": [
+    {
+      "id": 1,
+      "title": "The Biggest Car Rally - Support for Iran",
+      "date": "2026-01-17",
+      "time": "12:00 PM",
+      "location": "Richmond Hill, ON",
+      "description": "A hosted car rally in Richmond Hill, ON to support Iran.",
+      "organizer": "",
+      "image": "/protest-media/rally1.png"
+    }
+  ]
+}

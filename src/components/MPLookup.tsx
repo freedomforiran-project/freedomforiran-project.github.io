@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Mail, AlertCircle, Loader2 } from 'lucide-react';
+import { Search, Mail, AlertCircle, Loader2, Share2, Megaphone, X } from 'lucide-react';
 
 interface MP {
   firstName: string;
@@ -23,9 +23,14 @@ const MPLookup: React.FC = () => {
   const [suggestions, setSuggestions] = useState<MP[]>([]);
   const [usedPostalCode, setUsedPostalCode] = useState(false);
   const [emailTemplates, setEmailTemplates] = useState<any>(null);
+  const [emailCount, setEmailCount] = useState<number | null>(null);
+  const [protestsDrawerOpen, setProtestsDrawerOpen] = useState(false);
+  const [protests, setProtests] = useState<any[]>([]);
+  const [lightboxImage, setLightboxImage] = useState<string | null>(null);
 
   // Google Form tracking
   const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScLi7l0Mmsh79QK438KjkoKdCHGe-PU8NWxpLtv62ED1XH24w/formResponse';
+  const GOOGLE_SHEET_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQPjASOgdWJteBqteT-g6wUOjZlqNf5Ls_2DZl-mtg2pBydKISF8o-F3QvpR0raSSUxV5MCz8neqVV1/pub?output=csv';
 
   const trackEvent = (eventType: string, mpName?: string, constituency?: string) => {
     const timestamp = new Date().toLocaleString('en-US', {
@@ -52,7 +57,7 @@ const MPLookup: React.FC = () => {
     }).catch(() => {}); // Ignore errors silently
   };
 
-  const getEmailTemplate = (mpData: MP) => {
+  const getEmailTemplate = (mpData: MP, language: 'en' | 'fr' = 'en') => {
     // If templates haven't loaded yet, return empty string
     if (!emailTemplates) {
       return '';
@@ -68,17 +73,62 @@ const MPLookup: React.FC = () => {
 
     let template: string;
 
-    // Use specific template for Prime Minister
-    if (mpData.fullName === 'Mark Carney') {
-      template = emailTemplates.primeMinisterTemplate.body;
+    // Use French templates if requested
+    if (language === 'fr') {
+      const randomIndex = Math.floor(Math.random() * emailTemplates.frenchTemplates.length);
+      template = emailTemplates.frenchTemplates[randomIndex].body;
     } else {
-      // Randomly select a template for regular MPs
-      const randomIndex = Math.floor(Math.random() * emailTemplates.regularTemplates.length);
-      template = emailTemplates.regularTemplates[randomIndex].body;
+      // Use specific template for Prime Minister
+      if (mpData.fullName === 'Mark Carney') {
+        template = emailTemplates.primeMinisterTemplate.body;
+      } else {
+        // Randomly select a template for regular MPs
+        const randomIndex = Math.floor(Math.random() * emailTemplates.regularTemplates.length);
+        template = emailTemplates.regularTemplates[randomIndex].body;
+      }
     }
 
     // Replace the days count placeholder
     return template.replace('[DAYS_COUNT]', diffDays.toString());
+  };
+
+  // Fetch email count from Google Sheet
+  const fetchEmailCount = () => {
+    fetch(GOOGLE_SHEET_CSV)
+      .then(res => res.text())
+      .then(csvText => {
+        const lines = csvText.trim().split('\n');
+
+        if (lines.length <= 1) {
+          setEmailCount(0);
+          return;
+        }
+
+        // Parse CSV and count only "Send email" events
+        // Event Type is the second column (index 1)
+        let count = 0;
+        for (let i = 1; i < lines.length; i++) { // Skip header row
+          const line = lines[i];
+          // Split by comma to get columns
+          const columns = line.split(',');
+
+          if (columns.length > 1) {
+            const eventType = columns[1].trim();
+            // Remove quotes if present
+            const cleanEventType = eventType.replace(/^"(.*)"$/, '$1');
+
+            if (cleanEventType === 'Send email') {
+              count++;
+            }
+          }
+        }
+
+        setEmailCount(count);
+      })
+      .catch(err => {
+        console.error('Failed to load email count:', err);
+        setEmailCount(null);
+      });
   };
 
   // Load MP data and email templates on component mount
@@ -92,6 +142,21 @@ const MPLookup: React.FC = () => {
       .then(res => res.json())
       .then(data => setEmailTemplates(data))
       .catch(err => console.error('Failed to load email templates:', err));
+
+    fetch(`${import.meta.env.BASE_URL}protests.json`)
+      .then(res => res.json())
+      .then(data => {
+        setProtests(data.protests || []);
+      })
+      .catch(err => console.error('Failed to load protests:', err));
+
+    // Fetch initial email count
+    fetchEmailCount();
+
+    // Refresh email count every 30 seconds
+    const intervalId = setInterval(fetchEmailCount, 30000);
+
+    return () => clearInterval(intervalId);
   }, []);
 
   const searchMP = async () => {
@@ -219,10 +284,12 @@ const MPLookup: React.FC = () => {
     trackEvent('Search MP', selectedMP.fullName, selectedMP.constituency);
   };
 
-  const createMailtoLink = (mpData: MP) => {
-    const subject = encodeURIComponent('RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic');
+  const createMailtoLink = (mpData: MP, language: 'en' | 'fr' = 'en') => {
+    const subject = language === 'fr'
+      ? encodeURIComponent('RE: Appel urgent au soutien du peuple iranien et à la condamnation de la République islamique')
+      : encodeURIComponent('RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic');
 
-    let emailBody = getEmailTemplate(mpData).replace('[MP_NAME]', mpData.fullName);
+    let emailBody = getEmailTemplate(mpData, language).replace('[MP_NAME]', mpData.fullName);
 
     // Clean up placeholders
     emailBody = emailBody.replace('[MP_NAME]', mpData.fullName);
@@ -233,7 +300,9 @@ const MPLookup: React.FC = () => {
 
     // If this is a fallback to Mark Carney for a vacant seat, add additional note
     if (mpData.isDefault && mpData.actualConstituency) {
-      const constituencyNote = `\n\nNote: I am writing from the ${mpData.actualConstituency} constituency${mpData.postalCode ? ` (Postal Code: ${mpData.postalCode})` : ''}, which currently has a vacant seat. I am reaching out to you as Deputy Prime Minister to ensure this important issue receives attention.`;
+      const constituencyNote = language === 'fr'
+        ? `\n\nNote: J'écris de la circonscription ${mpData.actualConstituency}${mpData.postalCode ? ` (Code postal: ${mpData.postalCode})` : ''}, qui a actuellement un siège vacant. Je vous contacte en tant que Premier ministre pour m'assurer que cette question importante reçoit l'attention nécessaire.`
+        : `\n\nNote: I am writing from the ${mpData.actualConstituency} constituency${mpData.postalCode ? ` (Postal Code: ${mpData.postalCode})` : ''}, which currently has a vacant seat. I am reaching out to you as Prime Minister to ensure this important issue receives attention.`;
       emailBody = emailBody + constituencyNote;
     }
 
@@ -247,11 +316,157 @@ const MPLookup: React.FC = () => {
     }
   };
 
+  const handleShare = async () => {
+    const shareData = {
+      title: 'Contact Your MP About Iran',
+      text: 'Take action by emailing your Canadian MP about the ongoing humanitarian crisis in Iran.',
+      url: window.location.href
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        trackEvent('Share campaign');
+      } else {
+        // Fallback: open Twitter/X share
+        const twitterUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(shareData.text)}&url=${encodeURIComponent(shareData.url)}`;
+        window.open(twitterUrl, '_blank', 'width=600,height=400');
+        trackEvent('Share campaign (Twitter fallback)');
+      }
+    } catch (err) {
+      // User cancelled share or error occurred
+      console.log('Share cancelled or failed:', err);
+    }
+  };
+
   return (
-    <div className="min-h-screen flex items-center justify-center px-4 py-12">
-      <div className="max-w-2xl w-full">
-        {/* Header */}
-        <div className="text-center mb-12">
+    <div className="min-h-screen">
+      {/* Top Navbar */}
+      <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center h-16">
+            <button
+              onClick={handleShare}
+              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-colors"
+            >
+              <Share2 size={18} />
+              <span className="hidden sm:inline">Share Campaign</span>
+            </button>
+
+            <button
+              onClick={() => setProtestsDrawerOpen(true)}
+              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-colors"
+            >
+              <Megaphone size={18} />
+              <span className="hidden sm:inline">Upcoming Protests</span>
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      {/* Image Lightbox */}
+      {lightboxImage && (
+        <div
+          className="fixed inset-0 bg-black bg-opacity-90 z-[60] flex items-center justify-center p-4"
+          onClick={() => setLightboxImage(null)}
+        >
+          <div className="relative w-full h-full flex flex-col items-center justify-center">
+            <button
+              onClick={() => setLightboxImage(null)}
+              className="mb-4 text-white hover:text-gray-300 text-sm flex items-center gap-2 bg-gray-800 bg-opacity-50 px-4 py-2 rounded-lg"
+            >
+              <X size={20} />
+              Close
+            </button>
+            <img
+              src={lightboxImage.startsWith('/') ? lightboxImage : `${import.meta.env.BASE_URL}${lightboxImage}`}
+              alt="Protest image"
+              className="max-w-full max-h-[85vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      )}
+
+      {/* Protests Drawer */}
+      {protestsDrawerOpen && (
+        <>
+          {/* Backdrop */}
+          <div
+            className="fixed inset-0 bg-black bg-opacity-50 z-50 transition-opacity"
+            onClick={() => setProtestsDrawerOpen(false)}
+          />
+
+          {/* Drawer */}
+          <div className="fixed right-0 top-0 h-full w-full sm:w-96 bg-white shadow-xl z-50 overflow-y-auto">
+            <div className="p-6">
+              <div className="flex items-center justify-between mb-6">
+                <h2 className="text-2xl font-bold text-gray-900">Upcoming Protests</h2>
+                <button
+                  onClick={() => setProtestsDrawerOpen(false)}
+                  className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+                >
+                  <X size={24} />
+                </button>
+              </div>
+
+              {protests.length === 0 ? (
+                <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
+                  <p className="text-gray-700 mb-4">
+                    No upcoming protests are currently listed.
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    Know of an event or protest that should be featured here? Please send the details to{' '}
+                    <a
+                      href="mailto:freedomforiran.project@outlook.com"
+                      className="text-green-600 hover:text-green-700 font-medium underline"
+                    >
+                      freedomforiran.project@outlook.com
+                    </a>
+                    {' '}and we'll be happy to share it on this platform.
+                  </p>
+                </div>
+              ) : (
+                <div className="space-y-4">
+                  {protests.map((protest) => (
+                    <div key={protest.id} className="border border-gray-200 rounded-lg overflow-hidden hover:border-green-500 transition-colors">
+                      {protest.image && (
+                        <img
+                          src={protest.image.startsWith('/') ? protest.image : `${import.meta.env.BASE_URL}${protest.image}`}
+                          alt={protest.title}
+                          className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
+                          onClick={() => setLightboxImage(protest.image)}
+                          onError={(e) => {
+                            console.error('Failed to load image:', protest.image);
+                            e.currentTarget.style.display = 'none';
+                          }}
+                        />
+                      )}
+                      <div className="p-4">
+                        <h3 className="font-semibold text-lg text-gray-900 mb-2">{protest.title}</h3>
+                        <div className="space-y-1 text-sm text-gray-600">
+                          <p><span className="font-medium">Date:</span> {new Date(protest.date).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' })}</p>
+                          <p><span className="font-medium">Time:</span> {protest.time}</p>
+                          <p><span className="font-medium">Location:</span> {protest.location}</p>
+                          {protest.organizer && <p><span className="font-medium">Organizer:</span> {protest.organizer}</p>}
+                        </div>
+                        {protest.description && (
+                          <p className="mt-3 text-sm text-gray-700">{protest.description}</p>
+                        )}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+        </>
+      )}
+
+      <div className="flex items-center justify-center px-4 py-12">
+        <div className="max-w-2xl w-full">
+          {/* Header */}
+          <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-4 md:gap-6 mb-4">
             <img src="/flag.svg" alt="Iranian Flag" className="w-12 h-12 md:w-20 md:h-20 flex-shrink-0" />
             <img src="/canadaflag.svg" alt="Canadian Flag" className="w-12 h-12 md:w-20 md:h-20 flex-shrink-0" />
@@ -376,14 +591,27 @@ const MPLookup: React.FC = () => {
                 </p>
               </div>
 
-              <a
-                href={createMailtoLink(mp)}
-                onClick={() => trackEvent('Send email', mp.fullName, mp.constituency)}
-                className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2 inline-flex"
-              >
-                <Mail size={20} />
-                Email {mp.firstName} About Iran
-              </a>
+              <div className="space-y-3">
+                <a
+                  href={createMailtoLink(mp)}
+                  onClick={() => trackEvent('Send email', mp.fullName, mp.constituency)}
+                  className="w-full bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2 inline-flex"
+                >
+                  <Mail size={20} />
+                  Email {mp.firstName} About Iran
+                </a>
+
+                {mp.province.toLowerCase() === 'quebec' && (
+                  <a
+                    href={createMailtoLink(mp, 'fr')}
+                    onClick={() => trackEvent('Send email (French)', mp.fullName, mp.constituency)}
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors flex items-center justify-center gap-2 inline-flex"
+                  >
+                    <Mail size={20} />
+                    Envoyer un courriel en français
+                  </a>
+                )}
+              </div>
 
               <p className="text-sm text-gray-600 mt-4">
                 The email will open in your default email client with a pre-written message. You can edit it before sending.
@@ -391,6 +619,17 @@ const MPLookup: React.FC = () => {
             </div>
           )}
         </div>
+
+        {/* Statistics Box */}
+        {emailCount !== null && (
+          <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
+            <h3 className="font-semibold text-gray-900 mb-4">Campaign Impact</h3>
+            <div className="text-center bg-gradient-to-r from-green-500 to-green-600 text-white py-3 px-6 rounded-lg">
+              <p className="text-xs font-semibold uppercase tracking-wide">Emails Sent</p>
+              <p className="text-2xl font-bold">{emailCount.toLocaleString()}</p>
+            </div>
+          </div>
+        )}
 
         {/* Information Box */}
         <div className="bg-white rounded-xl shadow-lg p-6">
@@ -413,6 +652,7 @@ const MPLookup: React.FC = () => {
               <span>Every email counts in demonstrating Canadian support for Iranian people</span>
             </li>
           </ul>
+        </div>
         </div>
       </div>
     </div>
