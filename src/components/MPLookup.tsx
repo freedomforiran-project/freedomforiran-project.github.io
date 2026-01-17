@@ -414,20 +414,8 @@ const MPLookup: React.FC = () => {
               </div>
 
               {protests.length === 0 ? (
-                <div className="bg-gray-50 border border-gray-200 rounded-lg p-6">
-                  <p className="text-gray-700 mb-4">
-                    No upcoming protests are currently listed.
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Know of an event or protest that should be featured here? Please send the details to{' '}
-                    <a
-                      href="mailto:freedomforiran.project@outlook.com"
-                      className="text-green-600 hover:text-green-700 font-medium underline"
-                    >
-                      freedomforiran.project@outlook.com
-                    </a>
-                    {' '}and we'll be happy to share it on this platform.
-                  </p>
+                <div className="text-center text-gray-600 py-8">
+                  <p>No upcoming protests are currently listed.</p>
                 </div>
               ) : (
                 <div className="space-y-4">
@@ -464,6 +452,20 @@ const MPLookup: React.FC = () => {
                   ))}
                 </div>
               )}
+
+              {/* Always show submission message at bottom */}
+              <div className="mt-8 bg-gray-50 border border-gray-200 rounded-lg p-4">
+                <p className="text-sm text-gray-600">
+                  Know of an event or protest that should be featured here? Please send the details to{' '}
+                  <a
+                    href="mailto:freedomforiran.project@outlook.com"
+                    className="text-green-600 hover:text-green-700 font-medium underline"
+                  >
+                    freedomforiran.project@outlook.com
+                  </a>
+                  {' '}and we'll be happy to share it on this platform.
+                </p>
+              </div>
             </div>
           </div>
         </>
