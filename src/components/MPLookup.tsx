@@ -354,7 +354,10 @@ const MPLookup: React.FC = () => {
             </button>
 
             <button
-              onClick={() => setProtestsDrawerOpen(true)}
+              onClick={() => {
+                setProtestsDrawerOpen(true);
+                trackEvent('View protests');
+              }}
               className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-colors"
             >
               <Megaphone size={18} />
@@ -435,7 +438,10 @@ const MPLookup: React.FC = () => {
                           src={protest.image.startsWith('/') ? protest.image : `${import.meta.env.BASE_URL}${protest.image}`}
                           alt={protest.title}
                           className="w-full h-auto cursor-pointer hover:opacity-90 transition-opacity"
-                          onClick={() => setLightboxImage(protest.image)}
+                          onClick={() => {
+                            setLightboxImage(protest.image);
+                            trackEvent('View protest image', protest.title);
+                          }}
                           onError={(e) => {
                             console.error('Failed to load image:', protest.image);
                             e.currentTarget.style.display = 'none';
