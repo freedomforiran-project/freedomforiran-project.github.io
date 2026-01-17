@@ -318,8 +318,8 @@ const MPLookup: React.FC = () => {
 
   const handleShare = async () => {
     const shareData = {
-      title: 'Contact Your MP About Iran',
-      text: 'Take action by emailing your Canadian MP about the ongoing humanitarian crisis in Iran.',
+      title: 'Stand With Iran - Contact Your MP',
+      text: 'Join Canadians in taking action for Iran. Email your MP and call for accountability, human rights investigations, and unwavering support for the Iranian people.',
       url: window.location.href
     };
 
