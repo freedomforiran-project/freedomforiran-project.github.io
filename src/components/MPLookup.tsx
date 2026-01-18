@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Mail, AlertCircle, Loader2, Share2, Megaphone, X } from 'lucide-react';
+import { Search, Mail, AlertCircle, Loader2, Share2, X } from 'lucide-react';
 
 interface MP {
   firstName: string;
@@ -341,32 +341,6 @@ const MPLookup: React.FC = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Top Navbar */}
-      <nav className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <button
-              onClick={handleShare}
-              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-colors"
-            >
-              <Share2 size={18} />
-              <span className="hidden sm:inline">Share Campaign</span>
-            </button>
-
-            <button
-              onClick={() => {
-                setProtestsDrawerOpen(true);
-                trackEvent('View protests');
-              }}
-              className="flex items-center gap-2 px-4 py-2 text-sm font-medium text-gray-700 hover:text-green-600 hover:bg-gray-50 rounded-lg transition-colors"
-            >
-              <Megaphone size={18} />
-              <span className="hidden sm:inline">Upcoming Protests</span>
-            </button>
-          </div>
-        </div>
-      </nav>
-
       {/* Image Lightbox */}
       {lightboxImage && (
         <div
@@ -631,10 +605,22 @@ const MPLookup: React.FC = () => {
         {/* Statistics Box */}
         {emailCount !== null && (
           <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
-            <h3 className="font-semibold text-gray-900 mb-4">Campaign Impact</h3>
-            <div className="text-center bg-gradient-to-r from-green-500 to-green-600 text-white py-3 px-6 rounded-lg">
-              <p className="text-xs font-semibold uppercase tracking-wide">Emails Sent</p>
-              <p className="text-2xl font-bold">{emailCount.toLocaleString()}</p>
+            <h3 className="font-semibold text-gray-900 mb-4">Our Impact</h3>
+            <div className="text-center border-2 border-green-500 bg-green-50 py-6 px-6 rounded-xl">
+              <p className="text-sm font-medium text-green-700 mb-2">Emails Sent to MPs</p>
+              <p className="text-4xl font-bold text-green-600">{emailCount.toLocaleString()}</p>
+            </div>
+            <div className="mt-6 text-center">
+              <p className="text-sm text-gray-700 mb-3">
+                Continue to support Iran — share this campaign with others
+              </p>
+              <button
+                onClick={handleShare}
+                className="inline-flex items-center gap-2 px-6 py-3 bg-green-600 hover:bg-green-700 text-white font-semibold rounded-lg transition-colors"
+              >
+                <Share2 size={18} />
+                Share Campaign
+              </button>
             </div>
           </div>
         )}
