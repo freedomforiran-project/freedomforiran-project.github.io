@@ -286,8 +286,8 @@ const MPLookup: React.FC = () => {
 
   const createMailtoLink = (mpData: MP, language: 'en' | 'fr' = 'en') => {
     const subject = language === 'fr'
-      ? encodeURIComponent('RE: Appel urgent au soutien du peuple iranien et à la condamnation de la République islamique')
-      : encodeURIComponent('RE: Urgent Call for Support of the Iranian People and Condemnation of the Islamic Republic');
+      ? encodeURIComponent('RE : Action immédiate requise pour faire face aux crimes contre l’humanité et soutenir la révolution iranienne en vue d’un changement de régime')
+      : encodeURIComponent('RE: Immediate Action Required to Address Crimes Against Humanity and Support the Iranian Revolution for Regime Change');
 
     let emailBody = getEmailTemplate(mpData, language).replace('[MP_NAME]', mpData.fullName);
 
