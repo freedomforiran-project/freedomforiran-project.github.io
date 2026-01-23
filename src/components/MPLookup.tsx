@@ -602,6 +602,29 @@ const MPLookup: React.FC = () => {
           )}
         </div>
 
+        {/* Information Box */}
+        <div className="bg-white rounded-xl shadow-lg p-6 mb-6">
+          <h3 className="font-semibold text-gray-900 mb-3">Why Contact Your MP?</h3>
+          <ul className="text-sm text-gray-600 space-y-2">
+            <li className="flex items-start gap-2">
+              <span className="text-green-600 font-bold">•</span>
+              <span>Members of Parliament represent your voice in the Canadian government</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-green-600 font-bold">•</span>
+              <span>Your message helps raise awareness about human rights violations in Iran</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-green-600 font-bold">•</span>
+              <span>Collective action can lead to policy changes and international support</span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-green-600 font-bold">•</span>
+              <span>Every email counts in demonstrating Canadian support for Iranian people</span>
+            </li>
+          </ul>
+        </div>
+
         {/* Statistics Box */}
         {emailCount !== null && (
           <div className="bg-white rounded-2xl shadow-xl p-8 mb-6">
@@ -625,28 +648,6 @@ const MPLookup: React.FC = () => {
           </div>
         )}
 
-        {/* Information Box */}
-        <div className="bg-white rounded-xl shadow-lg p-6">
-          <h3 className="font-semibold text-gray-900 mb-3">Why Contact Your MP?</h3>
-          <ul className="text-sm text-gray-600 space-y-2">
-            <li className="flex items-start gap-2">
-              <span className="text-green-600 font-bold">•</span>
-              <span>Members of Parliament represent your voice in the Canadian government</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-600 font-bold">•</span>
-              <span>Your message helps raise awareness about human rights violations in Iran</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-600 font-bold">•</span>
-              <span>Collective action can lead to policy changes and international support</span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-green-600 font-bold">•</span>
-              <span>Every email counts in demonstrating Canadian support for Iranian people</span>
-            </li>
-          </ul>
-        </div>
         </div>
       </div>
     </div>
