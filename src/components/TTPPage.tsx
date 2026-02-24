@@ -37,8 +37,9 @@ const TTPPage: React.FC = () => {
     });
 
     const formData = new FormData();
-    formData.append('entry.268126460', eventType);
-    formData.append('entry.490158959', timestamp);
+    formData.append('entry.466984131', eventType); // Event Type
+    formData.append('entry.138447994', timestamp); // Timestamp
+    formData.append('entry.257745081', eventType); // Action (using same as event type)
 
     // Send to Google Form (no-cors mode, fire and forget)
     fetch(GOOGLE_FORM_URL, {
