@@ -22,8 +22,8 @@ const TTPPage: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [emailSent, setEmailSent] = useState(false);
 
-  // Google Form tracking
-  const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLScLi7l0Mmsh79QK438KjkoKdCHGe-PU8NWxpLtv62ED1XH24w/formResponse';
+  // Google Form tracking for TTP page
+  const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSc2U7Hg3Dk-wEZ3usTxmjyPvwd8-HhFSrmT1mibVSpPvqmxuA/formResponse';
 
   const trackEvent = (eventType: string) => {
     const timestamp = new Date().toLocaleString('en-US', {
