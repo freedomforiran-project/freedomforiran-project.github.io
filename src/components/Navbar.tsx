@@ -7,7 +7,7 @@ const Navbar = () => {
 
   const navLinks = [
     { path: '/', label: 'Email Your MP' },
-    { path: '/ttp', label: 'The Teach Project' }
+    { path: '/children', label: 'Children in Iran' }
   ];
 
   const handleNavigation = (e: React.MouseEvent<HTMLAnchorElement>, path: string) => {
