@@ -32,7 +32,7 @@ function App() {
   useEffect(() => {
     const titles: { [key: string]: string } = {
       '/': 'Contact Your MP About Iran - Take Action',
-      '/ttp': 'Contact UN & UNICEF About Children in Iran'
+      '/children': 'Contact UN & UNICEF About Children in Iran'
     };
     document.title = titles[currentRoute] || titles['/'];
   }, [currentRoute]);
@@ -41,7 +41,7 @@ function App() {
     <div className="min-h-screen">
       <Navbar />
       {currentRoute === '/' && <MPLookup />}
-      {currentRoute === '/ttp' && <TTPPage />}
+      {currentRoute === '/children' && <TTPPage />}
     </div>
   );
 }
