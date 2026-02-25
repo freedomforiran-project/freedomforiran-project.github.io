@@ -99,7 +99,7 @@ const TTPPage: React.FC = () => {
         <div className="max-w-2xl w-full">
           {/* Header */}
           <div className="text-center mb-12">
-            <div className="flex items-start justify-center gap-4 md:gap-6 mb-4">
+            <div className="flex items-center justify-center gap-4 md:gap-6 mb-4">
               <img src="/ttp.png" alt="The Teach Project" className="w-24 md:w-40 flex-shrink-0" />
               <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 leading-tight text-left">
                 Contact UN & UNICEF About Children in Iran
