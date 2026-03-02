@@ -151,13 +151,6 @@ const TTPPage: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="mb-6">
-                  <h3 className="text-sm font-medium text-gray-700 mb-2">Email Subject</h3>
-                  <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm text-gray-800">
-                    {emailTemplate.ttpTemplate.subject.replace('[TIMESTAMP]', generateTimestamp())}
-                  </div>
-                </div>
-
                 <button
                   onClick={handleSendEmail}
                   disabled={loading}
