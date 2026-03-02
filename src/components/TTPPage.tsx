@@ -60,6 +60,19 @@ const TTPPage: React.FC = () => {
     trackEvent('TTP page view');
   }, []);
 
+  const generateTimestamp = () => {
+    const now = new Date();
+    return now.toLocaleString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+      hour: 'numeric',
+      minute: '2-digit',
+      second: '2-digit',
+      hour12: true
+    });
+  };
+
   const createTTPMailtoLink = () => {
     if (!emailTemplate) return '';
 
@@ -69,7 +82,10 @@ const TTPPage: React.FC = () => {
 
     const allEmails = recipients.map(r => r.email).join(',');
 
-    const encodedSubject = encodeURIComponent(subject);
+    // Replace [TIMESTAMP] placeholder with actual timestamp
+    const timestampedSubject = subject.replace('[TIMESTAMP]', generateTimestamp());
+
+    const encodedSubject = encodeURIComponent(timestampedSubject);
     const encodedBody = encodeURIComponent(body);
 
     return `mailto:${allEmails}?subject=${encodedSubject}&body=${encodedBody}`;
@@ -138,7 +154,7 @@ const TTPPage: React.FC = () => {
                 <div className="mb-6">
                   <h3 className="text-sm font-medium text-gray-700 mb-2">Email Subject</h3>
                   <div className="bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm text-gray-800">
-                    {emailTemplate.ttpTemplate.subject}
+                    {emailTemplate.ttpTemplate.subject.replace('[TIMESTAMP]', generateTimestamp())}
                   </div>
                 </div>
 
