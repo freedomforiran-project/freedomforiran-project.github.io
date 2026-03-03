@@ -8,7 +8,7 @@ interface TTPRecipient {
 }
 
 interface TTPEmailTemplate {
-  subject: string;
+  subjectVariations: string[];
   body: string;
   recipients: TTPRecipient[];
 }
@@ -76,14 +76,17 @@ const TTPPage: React.FC = () => {
   const createTTPMailtoLink = () => {
     if (!emailTemplate) return '';
 
-    const { subject, body, recipients } = emailTemplate.ttpTemplate;
+    const { subjectVariations, body, recipients } = emailTemplate.ttpTemplate;
 
     if (!recipients || recipients.length === 0) return '';
 
     const allEmails = recipients.map(r => r.email).join(',');
 
-    // Replace [TIMESTAMP] placeholder with actual timestamp
-    const timestampedSubject = subject.replace('[TIMESTAMP]', generateTimestamp());
+    // Randomly select a subject variation
+    const randomSubject = subjectVariations[Math.floor(Math.random() * subjectVariations.length)];
+
+    // Place timestamp at the front of the subject line
+    const timestampedSubject = `${generateTimestamp()} - ${randomSubject}`;
 
     const encodedSubject = encodeURIComponent(timestampedSubject);
     const encodedBody = encodeURIComponent(body);
